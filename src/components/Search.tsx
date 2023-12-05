@@ -40,7 +40,7 @@ const Search = () => {
       contentClassName="dialog-box max-w-[95%] flex flex-col justify-center items-center !bg-transparent !bg-opacity-30 !border-none !shadow-none"
       trigger={
         <div className="rounded-full p-2 ml-2 border-2 border-white bg-transparent hover:bg-white hover:border-golden group cursor-pointer">
-          <Icons.search className="text-white w-5 h-5 group-hover:text-golden " />
+          <Icons.search className="text-white w-4 h-4 group-hover:text-golden " />
         </div>
       }
       content={

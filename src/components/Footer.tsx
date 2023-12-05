@@ -127,7 +127,7 @@ const Footer: React.FC = () => {
 
 
       </div>
-      <div className="pl-[3rem] sm:pl-[1rem] pb-2 text-white text-[9px] 2xl:text-[16px] w-[430px]">Morsi M Partners ® is a registered trademark. © 2023. All Rights Reserved.</div>
+      <div className="pl-[3rem] sm:pl-[1rem] pb-2 text-white text-[9px] 2xl:text-[16px] 2xl:w-[430px]">Morsi M Partners ® is a registered trademark. © 2023. All Rights Reserved.</div>
 
       {/* Copyright */}
       <div className="copyright border-t border-t-greyborder flex items-center justify-center text-white py-[10px] px-[50px] xl:py-[10px] xl:px-[50px] 2xl:py-[20px] 2xl:px-[50px]">
