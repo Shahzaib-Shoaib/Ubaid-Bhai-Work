@@ -23,7 +23,7 @@ const OurTeam: NextPage = () => {
       <div className="bg-black h-[70px] lg:h-[90px] w-full block xl:hidden 2xl:hidden"></div>
       {/* Banner */}
       <section className="banner relative flex items-center justify-center w-full h-[250px] lg:h-[520px] xl:h-[700px] 2xl:h-screen overflow-hidden bg-[url('/images/ourteam-banner.jpg')] bg-cover bg-center aspect-video">
-        <div className="info maxw absolute z-[2] w-full h-full flex flex-col items-center justify-center my-auto 2xl:mt-[-120px] xl:mt-[0px]">
+        <div className="info maxw absolute z-[2] w-full h-full flex flex-col items-center justify-center my-auto 2xl:mt-[-80px]  ">
           <h2 className="text-white text-center leading-tight font-normal mb-4 text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px]">
             We believe that legacy creation is the noblest of all pursuits
           </h2>
@@ -35,7 +35,7 @@ const OurTeam: NextPage = () => {
           <CustomDialog
             contentClassName="w-full"
             trigger={
-              <CustomButton variant={"golden"} className="">
+              <CustomButton variant={"golden"} className="2xl:mt-3">
                 A Message From The Founder
               </CustomButton>
             }
