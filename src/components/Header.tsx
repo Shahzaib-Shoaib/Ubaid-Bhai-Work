@@ -39,24 +39,26 @@ const Header: React.FC = () => {
         </Link>
 
         {/* Nav Menu */}
-        <nav className="nav hidden xl:flex 2xl:flex items-center h-full justify-center text-[18px] leading-[20px] gap-4">
+        <nav className="nav hidden xl:flex 2xl:flex items-center h-full justify-center text-[18px] leading-[20px] gap-9 ml-6 ">
 
           <Link
             href={"/about-us"}
-            className={"transition duration-300 hover:text-golden px-[12px] py-[13px]"}
+            className={"transition duration-300 hover:text-golden  py-[13px]"}
           >
             About us
           </Link>
-          <div className="group/dropdown h-full">
-            <Link
-              href={"/services"}
-              className={
-                "transition duration-300 hover:text-golden flex gap-4 group/drop px-[28px] py-[13px] relative"
-              }
-            >
-              Services
-              <Icons.chevrondown className="h-5 w-5 mt-0 absolute right-1 text-white group-hover/drop:text-golden transition duration-300" />
-            </Link>
+          <div className="group/dropdown h-full ">
+            <span className="flex align-middle justify-center items-center mr-4">
+              <Link
+                href={"/services"}
+                className={
+                  "transition duration-300 hover:text-golden flex gap-4 group/drop   relative"
+                }
+              >
+                Services
+                <Icons.chevrondown className="h-5 w-5 mt-0  absolute left-16 text-white group-hover/drop:text-golden transition duration-300" />
+              </Link>
+            </span>
             <div className="invisible absolute left-0 top-[60px]  p-4 transition-all duration-500 z-50  w-screen h-[350px] bg-black text-gray-800 shadow-xl group-hover/dropdown:visible">
               <div className="maxw relative">
                 <ul>
@@ -400,13 +402,13 @@ const Header: React.FC = () => {
           </div>
           <Link
             href={"/our-team"}
-            className={"transition duration-300 hover:text-golden  px-[12px] py-[13px]"}
+            className={"transition duration-300 hover:text-golden   py-[13px]"}
           >
             Our Team
           </Link>
           <Link
             href={"/careers"}
-            className={"transition duration-300 hover:text-golden  px-[12px] py-[13px]"}
+            className={"transition duration-300 hover:text-golden   py-[13px]"}
           >
             Careers
           </Link>
@@ -416,11 +418,11 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-center ">
           <Link
             href={"/contact-us"}
-            className="hidden xl:flex 2xl:flex items-center justify-center mr-4"
+            className="hidden xl:flex 2xl:flex items-center justify-center mr-6"
           >
             <CustomButton variant={"golden"}>Contact us</CustomButton>
           </Link>
-          <Search />
+          <span className="mr-2"><Search /></span>
           <div className="flex xl:hidden 2xl:hidden">
             <div
               className="menu-icon bg-black rounded-sm p-1 cursor-pointer"

@@ -31,18 +31,18 @@ export default function Home() {
         >
           <Icons.movedown className="h-7 w-7 sm:w-5 sm:h-5 text-white" />
         </Link>
-        <div className="info maxw absolute z-[2] w-full h-full flex flex-col items-center justify-center my-auto">
+        <div className="info maxw absolute z-[2] w-full h-full flex flex-col items-center justify-center my-auto mb-6 ">
           <Image
             alt="Morsi M Partners Banner"
             src={"/images/banner_heading.png"}
             width={1003}
             height={100}
-            className="mb-5  banner-image-morsi"
+            className=" mb-6 banner-image-morsi"
           />
-          <h2 className="text-white text-center leading-none font-normal mb-[20px] text-[12px] md:text-[18px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px]">
+          <h2 className="text-white text-center leading-none font-normal  text-[12px] md:text-[18px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px]">
             An independent advisory and professional services firm
           </h2>
-          <h2 className="text-white text-center sm:max-w-[85%] leading-none font-normal mb-[20px] text-[12px] md:text-[18px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px]">
+          <h2 className="text-white text-center sm:max-w-[85%] leading-none font-normal my-5 text-[12px] md:text-[18px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px]">
             We help our clients address operational, strategic, and complex
             challenges
           </h2>
