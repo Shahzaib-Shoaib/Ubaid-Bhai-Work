@@ -704,7 +704,7 @@ export default function Home() {
               We are committed to actively recruiting, supporting, and
               developing individuals from all backgrounds.{" "}
             </p>
-            <div className="actions pt-7">
+            <div className="actions 2xl:pt-7">
               <Link href={"/careers"}>
                 <CustomButton variant={"golden"}>Careers</CustomButton>
               </Link>
