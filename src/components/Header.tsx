@@ -39,7 +39,7 @@ const Header: React.FC = () => {
         </Link>
 
         {/* Nav Menu */}
-        <nav className="nav hidden xl:flex 2xl:flex items-center h-full justify-center text-[18px] leading-[20px] gap-9 ml-6 ">
+        <nav className="nav hidden xl:flex 2xl:flex items-center h-full justify-center text-[18px] leading-[20px] gap-10 ml-8 ">
 
           <Link
             href={"/about-us"}

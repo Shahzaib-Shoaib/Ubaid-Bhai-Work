@@ -4,7 +4,12 @@ import Header from "@/components/Header";
 import { Icons } from "@/components/Icons";
 import CustomButton from "@/components/customui/CustomButton";
 import CustomDialog from "@/components/customui/CustomDialog";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { NextPage } from "next";
 import Image from "next/image";
@@ -50,14 +55,20 @@ export default function Home() {
       </section>
 
       {/* Advisory Expertise */}
-      <section id="advisory-expertise" className="div_section bggolden py-[35px] ">
+      <section
+        id="advisory-expertise"
+        className="div_section bggolden pt-[55px] "
+      >
         <div className="maxw">
           <h2 className=" text-center text-black pb-3 border-b border-b-golden w-fit mx-auto text-[22px] lg:text-[30px] xl:text-[45px] 2xl:text-[45px]">
             Our deep advisory expertise
           </h2>
-          <div className="expertise-tabs w-full mt-5 2xl:mt-7">
-            <Tabs defaultValue="finance-accounting" className="sm:hidden w-full mt-4">
-              <TabsList className="h-fit bg-transparent w-full flex items-center justify-between">
+          <div className="expertise-tabs w-full mt-5 2xl:mt-7 ">
+            <Tabs
+              defaultValue="finance-accounting"
+              className="sm:hidden w-full mt-4"
+            >
+              <TabsList className="h-fit bg-transparent w-full flex items-center justify-between ">
                 <TabsTrigger
                   value="finance-accounting"
                   className="flex flex-col items-center justify-center p-0 m-1"
@@ -156,7 +167,9 @@ export default function Home() {
                 </TabsTrigger>
               </TabsList>
               <TabsContent className="mt-4" value="finance-accounting">
-                <h2 className=" text-black font-medium mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">Finance & Accounting</h2>
+                <h2 className=" text-black font-medium mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
+                  Finance & Accounting
+                </h2>
                 <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
                   MMP provides comprehensive and best-in-class solutions for
                   your Finance and Accounting (“F&A”) functions, including
@@ -164,7 +177,7 @@ export default function Home() {
                   audit readiness, financial reporting, and technical accounting
                   advisory services.
                 </p>
-                <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
+                <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[80%]">
                   Our offerings ensure that your F&A function is adequately
                   established, closely monitored, and professionally and
                   effectively managed.
@@ -199,7 +212,9 @@ export default function Home() {
                 </Link>
               </TabsContent>
               <TabsContent className="mt-4" value="tax">
-                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">Tax</h2>
+                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
+                  Tax
+                </h2>
                 <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
                   MMP provides expert guidance on tax services, covering value
                   added tax (“VAT”), corporate tax, transfer pricing, excise
@@ -219,7 +234,10 @@ export default function Home() {
                   </CustomButton>
                 </Link>
               </TabsContent>
-              <TabsContent className="mt-4" value="investment-family-office-advisory">
+              <TabsContent
+                className="mt-4"
+                value="investment-family-office-advisory"
+              >
                 <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
                   Investment & Family Office Advisory
                 </h2>
@@ -293,7 +311,10 @@ export default function Home() {
               type="multiple"
               className=" md:hidden lg:hidden xl:hidden 2xl:hidden w-full items-center justify-center"
             >
-              <AccordionItem value="finance-accounting" className="mt-0 border-b-0">
+              <AccordionItem
+                value="finance-accounting"
+                className="mt-0 border-b-0"
+              >
                 <AccordionTrigger className="hover:no-underline py-2 border-b border-b-[#5D5D5D]  data-[state=open]:text-golden data-[state=open]:border-b-golden ">
                   <div className="flex items-center justify-start gap-4">
                     <Image
@@ -313,8 +334,8 @@ export default function Home() {
                     MMP provides comprehensive and best-in-class solutions for
                     your Finance and Accounting (“F&A”) functions, including
                     outsourced finance officer solutions, financial statements
-                    audit readiness, financial reporting, and technical accounting
-                    advisory services.
+                    audit readiness, financial reporting, and technical
+                    accounting advisory services.
                   </p>
                   <p className="text-textgrey mb-[14px] text-[16px] xl:text-[18px] 2xl:text-[20px] ">
                     Our offerings ensure that your F&A function is adequately
@@ -322,14 +343,20 @@ export default function Home() {
                     effectively managed.
                   </p>
                   <Link href={"/services/finance-accounting/"}>
-                    <CustomButton variant={"golden"} className="gap-1 py-2 px-5 text-[17px]">
+                    <CustomButton
+                      variant={"golden"}
+                      className="gap-1 py-2 px-5 text-[17px]"
+                    >
                       Learn More
                       <Icons.arrowRight className="w-4 h-4 sm:w-2 sm:h-2" />
                     </CustomButton>
                   </Link>
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="corporate-finance-advisory" className="mt-0 border-b-0">
+              <AccordionItem
+                value="corporate-finance-advisory"
+                className="mt-0 border-b-0"
+              >
                 <AccordionTrigger className="hover:no-underline py-2 border-b border-b-[#5D5D5D]  data-[state=open]:text-golden data-[state=open]:border-b-golden">
                   <div className="flex items-center justify-start gap-4">
                     <Image
@@ -357,7 +384,10 @@ export default function Home() {
                     speed, precision, and confidence.
                   </p>
                   <Link href={"/services/corporate-finance-advisory/"}>
-                    <CustomButton variant={"golden"} className="gap-1 py-2 px-5 text-[17px]">
+                    <CustomButton
+                      variant={"golden"}
+                      className="gap-1 py-2 px-5 text-[17px]"
+                    >
                       Learn More
                       <Icons.arrowRight className="w-4 h-4 sm:w-2 sm:h-2" />
                     </CustomButton>
@@ -388,19 +418,25 @@ export default function Home() {
                     advisory.
                   </p>
                   <p className="text-textgrey mb-[14px] text-[16px] xl:text-[18px] 2xl:text-[20px] ">
-                    Our expertise enables you to navigate the tax landscape in the
-                    UAE and GCC while ensuring compliance with the evolving
+                    Our expertise enables you to navigate the tax landscape in
+                    the UAE and GCC while ensuring compliance with the evolving
                     regulations.
                   </p>
                   <Link href={"/services/tax/"}>
-                    <CustomButton variant={"golden"} className="gap-1 py-2 px-5 text-[17px]">
+                    <CustomButton
+                      variant={"golden"}
+                      className="gap-1 py-2 px-5 text-[17px]"
+                    >
                       Learn More
                       <Icons.arrowRight className="w-4 h-4 sm:w-2 sm:h-2" />
                     </CustomButton>
                   </Link>
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="investment-family-office-advisory" className="mt-0 border-b-0">
+              <AccordionItem
+                value="investment-family-office-advisory"
+                className="mt-0 border-b-0"
+              >
                 <AccordionTrigger className="hover:no-underline py-2 border-b border-b-[#5D5D5D]  data-[state=open]:text-golden data-[state=open]:border-b-golden">
                   <div className="flex items-center justify-start gap-4">
                     <Image
@@ -417,25 +453,32 @@ export default function Home() {
                 </AccordionTrigger>
                 <AccordionContent className="p-0 pt-4">
                   <p className="text-textgrey mb-[14px] text-[16px] xl:text-[18px] 2xl:text-[20px] ">
-                    MMP provides tailored investment and asset allocation advice,
-                    and family office advisory services. Our differentiated and
-                    pioneering expertise helps unlock new investment opportunities
-                    across a broad spectrum of asset classes and create a sound
-                    governance framework to preserve and grow your wealth.
+                    MMP provides tailored investment and asset allocation
+                    advice, and family office advisory services. Our
+                    differentiated and pioneering expertise helps unlock new
+                    investment opportunities across a broad spectrum of asset
+                    classes and create a sound governance framework to preserve
+                    and grow your wealth.
                   </p>
                   <p className="text-textgrey mb-[14px] text-[16px] xl:text-[18px] 2xl:text-[20px] ">
                     We advise you with care and precision, while giving you full
                     control over your portfolio.
                   </p>
                   <Link href={"/services/investment-family-office-advisory/"}>
-                    <CustomButton variant={"golden"} className="gap-1 py-2 px-5 text-[17px]">
+                    <CustomButton
+                      variant={"golden"}
+                      className="gap-1 py-2 px-5 text-[17px]"
+                    >
                       Learn More
                       <Icons.arrowRight className="w-4 h-4 sm:w-2 sm:h-2" />
                     </CustomButton>
                   </Link>
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="risk-regulatory-advisory" className="mt-0 border-b-0">
+              <AccordionItem
+                value="risk-regulatory-advisory"
+                className="mt-0 border-b-0"
+              >
                 <AccordionTrigger className="hover:no-underline py-2 border-b border-b-[#5D5D5D]  data-[state=open]:text-golden data-[state=open]:border-b-golden">
                   <div className="flex items-center justify-start gap-4">
                     <Image
@@ -463,14 +506,20 @@ export default function Home() {
                     environment.
                   </p>
                   <Link href={"/services/risk-regulatory-advisory/"}>
-                    <CustomButton variant={"golden"} className="gap-1 py-2 px-5 text-[17px]">
+                    <CustomButton
+                      variant={"golden"}
+                      className="gap-1 py-2 px-5 text-[17px]"
+                    >
                       Learn More
                       <Icons.arrowRight className="w-4 h-4 sm:w-2 sm:h-2" />
                     </CustomButton>
                   </Link>
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="management-consulting" className="mt-0 border-b-0">
+              <AccordionItem
+                value="management-consulting"
+                className="mt-0 border-b-0"
+              >
                 <AccordionTrigger className="hover:no-underline py-2 border-b border-b-[#5D5D5D]  data-[state=open]:text-golden data-[state=open]:border-b-golden">
                   <div className="flex items-center justify-start gap-4">
                     <Image
@@ -501,7 +550,10 @@ export default function Home() {
                     capabilities.
                   </p>
                   <Link href={"/services/management-consulting/"}>
-                    <CustomButton variant={"golden"} className="gap-1 py-2 px-5 text-[17px]">
+                    <CustomButton
+                      variant={"golden"}
+                      className="gap-1 py-2 px-5 text-[17px]"
+                    >
                       Learn More
                       <Icons.arrowRight className="w-4 h-4 sm:w-2 sm:h-2" />
                     </CustomButton>
@@ -517,12 +569,27 @@ export default function Home() {
       <section className="div_section">
         <div className="maxw flex items-center gap-2 ">
           <div className="content w-[65%] ">
-            <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">Get to know us</h2>
-            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">Progressive, Pragmatic, Switched on</h2>
-            <p className=" mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] ">Our approach is collaborative, our philosophy is entrepreneurial.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%] 2xl:w-[85%]">We take genuine interest in collaborating with you and understanding your business.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[95%] xl:w-[90%] 2xl:w-[80%]">We bring diverse expertise and perspectives to gain a 360 view of your business and its macros.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%] xl:w-[85%]">Our objective is to unveil opportunities and unlock innovative ideas that promote sustainable growth. </p>
+            <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">
+              Get to know us
+            </h2>
+            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
+              Progressive, Pragmatic, Switched on
+            </h2>
+            <p className=" mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] ">
+              Our approach is collaborative, our philosophy is entrepreneurial.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%] 2xl:w-[85%]">
+              We take genuine interest in collaborating with you and
+              understanding your business.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[95%] xl:w-[90%] 2xl:w-[80%]">
+              We bring diverse expertise and perspectives to gain a 360 view of
+              your business and its macros.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%] xl:w-[85%]">
+              Our objective is to unveil opportunities and unlock innovative
+              ideas that promote sustainable growth.{" "}
+            </p>
             <div className="actions flex items-center gap-1 xl:gap-4 2xl:gap-4">
               <Link href={"/about-us"}>
                 <CustomButton variant={"golden"}>About</CustomButton>
@@ -533,16 +600,11 @@ export default function Home() {
               <CustomDialog
                 contentClassName="w-full "
                 trigger={
-                  <CustomButton
-                    variant={"dark"}
-                    className=""
-                  >
+                  <CustomButton variant={"dark"} className="">
                     A Message From The Founder
                   </CustomButton>
                 }
-                content={
-                  <FounderMessage />
-                }
+                content={<FounderMessage />}
               ></CustomDialog>
             </div>
           </div>
@@ -564,7 +626,6 @@ export default function Home() {
       {/* Why us */}
       <section className="div_section bggolden">
         <div className="maxw flex items-center gap-4">
-
           <div className="image w-[40%] sm:flex sm:items-center sm:justify-center xl:flex xl:items-center xl:justify-start 2xl:flex 2xl:items-center 2xl:justify-start">
             <img
               alt="Get to know us image"
@@ -577,14 +638,33 @@ export default function Home() {
               className="md:hidden lg:hidden xl:hidden 2xl:hidden sm:w-[110px] sm:h-[305px]"
             />
           </div>
-          <div className="content w-[60%] 2xl:ml-[60px] ">
-            <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">Why us</h2>
-            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">Trusted, Independent, Experienced</h2>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%]">Our commitment to our clients is an unrivaled level of service excellence across the suite of our services.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]">We pride ourselves with the trusted relationships and the borderless network that we have built over the years.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%]">We prioritize building strong and trustworthy relationships with our clients, ensuring that their growth is at the forefront of our daily interactions.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%]">At every interaction, we bring a depth of insight and foresight. We go beyond providing advisory solutions to existing problems, leveraging our experience to proactively maximize opportunities for sustainable growth.</p>
-            <div className="actions">
+          <div className="content w-[60%]  ">
+            <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">
+              Why us
+            </h2>
+            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
+              Trusted, Independent, Experienced
+            </h2>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%]">
+              Our commitment to our clients is an unrivaled level of service
+              excellence across the suite of our services.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]">
+              We pride ourselves with the trusted relationships and the
+              borderless network that we have built over the years.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%]">
+              We prioritize building strong and trustworthy relationships with
+              our clients, ensuring that their growth is at the forefront of our
+              daily interactions.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%]">
+              At every interaction, we bring a depth of insight and foresight.
+              We go beyond providing advisory solutions to existing problems,
+              leveraging our experience to proactively maximize opportunities
+              for sustainable growth.
+            </p>
+            <div className="actions pt-8">
               <Link href={"/services"}>
                 <CustomButton variant={"golden"}>Services</CustomButton>
               </Link>
@@ -599,20 +679,38 @@ export default function Home() {
       {/* Join our team */}
       <section className="div_section">
         <div className="maxw flex items-center gap-4">
-          <div className="content w-[60%] ">
-            <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">Join our team</h2>
-            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">Lead with character, Win together</h2>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[90%]">At Morsi M Partners, we foster an inclusive environment that highly values diversity, equity, and inclusion.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[95%]">Our commitment is to create a workplace that empowers our people to lead healthy lives, drive innovation, influence outcomes, and celebrate their uniqueness within our diverse teams.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[95%]">Our team is a mosaic of people and perspectives which fuels our ability to provide innovative and creative solutions to our clients.</p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[95%]">We are committed to actively recruiting, supporting, and developing individuals from all backgrounds. </p>
-            <div className="actions">
+          <div className="content w-[55%] ">
+            <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">
+              Join our team
+            </h2>
+            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
+              Lead with character, Win together
+            </h2>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[90%]">
+              At Morsi M Partners, we foster an inclusive environment that
+              highly values diversity, equity, and inclusion.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[95%]">
+              Our commitment is to create a workplace that empowers our people
+              to lead healthy lives, drive innovation, influence outcomes, and
+              celebrate their uniqueness within our diverse teams.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[95%]">
+              Our team is a mosaic of people and perspectives which fuels our
+              ability to provide innovative and creative solutions to our
+              clients.
+            </p>
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[95%]">
+              We are committed to actively recruiting, supporting, and
+              developing individuals from all backgrounds.{" "}
+            </p>
+            <div className="actions pt-7">
               <Link href={"/careers"}>
                 <CustomButton variant={"golden"}>Careers</CustomButton>
               </Link>
             </div>
           </div>
-          <div className="image w-[40%] sm:flex sm:items-center sm:justify-center  xl:flex xl:items-center xl:justify-end 2xl:flex 2xl:items-center 2xl:justify-end">
+          <div className="image w-[45%] sm:flex sm:items-center sm:justify-center  xl:flex xl:items-center xl:justify-end 2xl:flex 2xl:items-center 2xl:justify-end">
             <img
               alt="Get to know us image"
               src={"/images/joinourteam.jpg"}
