@@ -28,7 +28,7 @@ const Services: NextPage = () => {
         <div className="bg-black h-[70px] lg:h-[90px] w-full block xl:hidden 2xl:hidden"></div>
         {/* Banner */}
         <section className="banner relative flex items-center justify-center w-full max-h-screen h-[250px] lg:h-[520px] xl:h-[700px] 2xl:h-screen overflow-hidden bg-center bg-[url('/images/services-banner.png')] bg-cover">
-          <div className="bg-[#a7a1a1] bg-opacity-20 maxw w-[40%] sm:w-[90%] absolute z-[3] sm:bottom-6 bottom-10 flex items-center justify-around flex-wrap text-white p-2">
+          <div className="bg-[#a7a1a1] 2xl:mb-9 bg-opacity-20 maxw w-[40%] sm:w-[90%] absolute z-[3] sm:bottom-6 bottom-10 flex items-center justify-around flex-wrap text-white p-2">
             {/* <Icons.movedown className="h-7 w-7 sm:w-5 sm:h-5 text-white" /> */}
 
             <Link
@@ -45,7 +45,7 @@ const Services: NextPage = () => {
             </Link>
           </div>
           <div className="info maxw absolute 2xl:mt-[-120px] xl:mt-[0px] z-[2] w-full h-full flex flex-col items-center justify-center my-auto">
-            <h2 className="text-white text-center leading-tight font-normal mb-0 text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px]">
+            <h2 className="text-white text-center leading-tight font-normal mb-0 text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px] 2xl:mt-14">
               We help our clients address operational, strategic, and complex
               challenges
             </h2>
@@ -86,7 +86,7 @@ const Services: NextPage = () => {
                   </h2>
                 </TabsTrigger>
               </TabsList>
-              <TabsContent value="financial-services" >
+              <TabsContent value="financial-services">
                 <div className="flex">
                   <div className="content my-auto sm:mb-4 w-[70%] lg:w-[85%] xl:w-[85%] 2xl:w-[55%] 2xl:ml-16 text-black ">
                     <Accordion type="single" collapsible>
