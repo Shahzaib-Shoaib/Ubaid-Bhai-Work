@@ -15,11 +15,11 @@ const AboutUS: NextPage = () => {
       <div className="bg-black h-[70px] lg:h-[90px] w-full block xl:hidden 2xl:hidden"></div>
       {/* Banner */}
       <section className="banner relative flex items-center justify-center w-full max-h-screen h-[250px] sm:h-[200px] lg:h-[520px] xl:h-[700px] 2xl:h-screen overflow-hidden bg-[url('/images/aboutus-banner.jpg')] bg-cover bg-center">
-        <div className="bg-[#a7a1a1] bg-opacity-20 maxw w-[50%] xl:w-[70%] sm:w-[90%] absolute z-[3] bottom-14 sm:bottom-5 flex items-center justify-around flex-wrap text-white p-2 sm:p-0">
+        <div className="bg-[#a7a1a1] bg-opacity-20 maxw w-[50%] xl:w-[70%] sm:w-[90%] absolute z-[3] bottom-14 sm:bottom-5  flex items-center justify-around flex-wrap text-white p-2 sm:p-0 ">
           {/* <Icons.movedown className="h-7 w-7 sm:w-5 sm:h-5 text-white" /> */}
           <Link
             href={"about-us/#who-we-are"}
-            className="border-b-transparent border-b-2 hover:border-b-white hover:border-b-2 text-white hover:text-golden link-scroll mb-0"
+            className="2xl:ml-10 border-b-transparent border-b-2 hover:border-b-white hover:border-b-2 text-white hover:text-golden link-scroll mb-0"
           >
             Who we are
           </Link>
@@ -31,7 +31,7 @@ const AboutUS: NextPage = () => {
           </Link>
           <Link
             href={"about-us/#our-mission"}
-            className="border-b-transparent border-b-2 hover:border-b-white hover:border-b-2 text-white hover:text-golden link-scroll mb-0"
+            className=" border-b-transparent border-b-2 hover:border-b-white hover:border-b-2 text-white hover:text-golden link-scroll mb-0"
           >
             Our mission
           </Link>
@@ -43,12 +43,12 @@ const AboutUS: NextPage = () => {
           </Link>
           <Link
             href={"about-us/#our-values"}
-            className="border-b-transparent border-b-2 hover:border-b-white hover:border-b-2 text-white hover:text-golden link-scroll mb-0"
+            className="2xl:mr-10 border-b-transparent border-b-2 hover:border-b-white hover:border-b-2 text-white hover:text-golden link-scroll mb-0"
           >
             Our values
           </Link>
         </div>
-        <div className="info 2xl:mt-[-120px] xl:mt-[100px] maxw absolute z-[2] w-full h-full flex flex-col items-center justify-center my-auto">
+        <div className="info 2xl:mt-[-60px] xl:mt-[100px] maxw absolute z-[2] w-full h-full flex flex-col items-center justify-center my-auto">
           <h2 className="text-white text-center leading-[100%] font-normal mb-0 xl:mb-1 text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px]">
             Our values and behaviors are fueled by our purpose in life as individuals and as professionals
           </h2>
@@ -57,9 +57,9 @@ const AboutUS: NextPage = () => {
           </h2>
         </div>
       </section>
-
+<div className="m-2">
       {/* Who we are */}
-      <section id="who-we-are" className="div_section">
+      <section id="who-we-are" className="div_section ">
         <div className="maxw flex items-center gap-4">
           <div className="content w-[60%]">
             <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-normal">Who we are</h2>
@@ -121,8 +121,8 @@ const AboutUS: NextPage = () => {
       </section>
 
       {/* Our Mantra */}
-      <section id="our-mantra" className="div_section bggolden">
-        <div className="maxw flex items-center gap-4">
+      <section id="our-mantra" className="div_section bggolden ">
+        <div className="maxw flex items-center gap-4  2xl:py-14 ">
           <div className="image w-[40%] flex items-center justify-center ">
             <img
               alt="Our Mantra image"
@@ -170,7 +170,7 @@ const AboutUS: NextPage = () => {
 
       {/* Our Mission / Our Purpose */}
       <section id="our-mission" className="div_section">
-        <div id="our-purpose" className="maxw flex items-center gap-4">
+        <div id="our-purpose" className="maxw flex items-center gap-4  2xl:py-20">
           <div className="content w-[60%]">
             <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-normal">Our mission</h2>
             <p className="mb-0 xl:mb-[14px] 2xl:mb-[14px] leading-tight sm:leading-4 xl:leading-[24px] 2xl:leading-[27px]  text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[24px]">
@@ -212,7 +212,7 @@ const AboutUS: NextPage = () => {
 
       {/* Our values */}
       <section id="our-values" className="div_section bggolden">
-        <div className="maxw">
+        <div className="maxw 2xl:px-9 ">
           <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-normal">Our values</h2>
           {/* Integrity & Transparency */}
           <div id="integrity" className="bg-white p-4 mb-4">
@@ -220,23 +220,23 @@ const AboutUS: NextPage = () => {
               Integrity & Transparency
             </h3>
             <div className="list-icon">
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Our reputation is paramount.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Transparency is at the forefront of everything we do.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We hold ourselves accountable to the highest ethical standards.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We seek longevity and endurance in our relationships with our stakeholders.</p>
-                </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Our reputation is paramount.</p>
               </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Transparency is at the forefront of everything we do.</p>
+              </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We hold ourselves accountable to the highest ethical standards.</p>
+              </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We seek longevity and endurance in our relationships with our stakeholders.</p>
+              </div>
+            </div>
           </div>
           {/* Quality & Excellence */}
           <div id="quality" className="bg-white p-4 mb-4">
@@ -244,19 +244,19 @@ const AboutUS: NextPage = () => {
               Quality & Excellence
             </h3>
             <div className="list-icon">
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Consistency in delivering the highest levels of service excellence and quality is top priority.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Our focus on quality and excellence shapes our client interactions and guides our daily activities.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Quality and excellence permeate the entire client experience journey, not just the service outcome.</p>
-                </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Consistency in delivering the highest levels of service excellence and quality is top priority.</p>
               </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Our focus on quality and excellence shapes our client interactions and guides our daily activities.</p>
+              </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Quality and excellence permeate the entire client experience journey, not just the service outcome.</p>
+              </div>
+            </div>
           </div>
           {/* Collaborate & Inspire */}
           <div id="collaborate" className="bg-white p-4 mb-4">
@@ -264,55 +264,55 @@ const AboutUS: NextPage = () => {
               Collaborate & Inspire
             </h3>
             <div className="list-icon">
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Lead by example.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Care about and respect others.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We win together, this is our culture.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Empower others to be the best version of themselves.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Be to others, the mentor you would want for yourself and look up to.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Cultivate individuality and uniqueness to maximize outcomes within diverse teams.</p>
-                </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Lead by example.</p>
               </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Care about and respect others.</p>
+              </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We win together, this is our culture.</p>
+              </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Empower others to be the best version of themselves.</p>
+              </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Be to others, the mentor you would want for yourself and look up to.</p>
+              </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>Cultivate individuality and uniqueness to maximize outcomes within diverse teams.</p>
+              </div>
+            </div>
           </div>
           {/* Be the Alpha, Be Entrepreneurial, Do the right thing */}
-          <div id="alpha" className="bg-white p-4 mb-4">
+          <div id="alpha" className="bg-white p-4 mb-4 2xl:mb-10">
             <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 sm:text-[20px] text-[25px] leading-[28px] sm:leading-tight">
               Be the Alpha, Be Entrepreneurial, Do the right thing
             </h3>
             <div className="list-icon">
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We strive to be the best in everything we do.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We put our clients' interests first and do what is in their best interests, even if it means making difficult decisions.</p>
-                </div>
-                <div className="list-main flex justify-start items-start gap-2">
-                    <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
-                    <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We approach our work with an entrepreneurial spirit, seeking out new and innovative ways to help our clients succeed.</p>
-                </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We strive to be the best in everything we do.</p>
               </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We put our clients' interests first and do what is in their best interests, even if it means making difficult decisions.</p>
+              </div>
+              <div className="list-main flex justify-start items-start gap-2">
+                <img className='areo-icon-1' src="/images/icon.png" alt="areo-icon-1" />
+                <p className='m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]'>We approach our work with an entrepreneurial spirit, seeking out new and innovative ways to help our clients succeed.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
+      </div>
       {/* Get in Touch */}
       <GetInTouch />
     </main>

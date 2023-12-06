@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       {/* Advisory Expertise */}
-      <section id="advisory-expertise" className="div_section bggolden py-[30px]">
+      <section id="advisory-expertise" className="div_section bggolden py-[35px] ">
         <div className="maxw">
           <h2 className=" text-center text-black pb-3 border-b border-b-golden w-fit mx-auto text-[22px] lg:text-[30px] xl:text-[45px] 2xl:text-[45px]">
             Our deep advisory expertise

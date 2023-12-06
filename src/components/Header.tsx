@@ -413,10 +413,10 @@ const Header: React.FC = () => {
         </nav>
 
         {/* Actions */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center ">
           <Link
             href={"/contact-us"}
-            className="hidden xl:flex 2xl:flex items-center justify-center"
+            className="hidden xl:flex 2xl:flex items-center justify-center mr-4"
           >
             <CustomButton variant={"golden"}>Contact us</CustomButton>
           </Link>
@@ -451,7 +451,7 @@ const Header: React.FC = () => {
                   <Link
                     href={"/about-us"}
                     className={
-                      "transition duration-300 w-full p-4 hover:bg-golden text-white block"
+                      "transition duration-300 w-full p-4 hover:bg-golden text-white"
                     }
                     onClick={() => setIsOpen(false)}
                   >
@@ -519,8 +519,8 @@ const Header: React.FC = () => {
                         {/* Finance & Accounting */}
                         <div
                           className={`w-full h-full absolute z-[70] top-0 bg-black text-white transition ease-in-out animate-in  duration-500 overflow-y-auto ${subCategory === "finance-accounting"
-                              ? "-translate-x-0 "
-                              : "translate-x-full"
+                            ? "-translate-x-0 "
+                            : "translate-x-full"
                             }`}
                         >
                           <div
@@ -630,8 +630,8 @@ const Header: React.FC = () => {
                         {/* Corporate Finance Advisory */}
                         <div
                           className={`w-full h-full absolute z-[70] top-0 bg-black text-white transition ease-in-out animate-in  duration-500  overflow-y-auto ${subCategory === "corporate-finance-advisory"
-                              ? "-translate-x-0 "
-                              : "translate-x-full"
+                            ? "-translate-x-0 "
+                            : "translate-x-full"
                             }`}
                         >
                           <div
@@ -775,8 +775,8 @@ const Header: React.FC = () => {
                         {/* Tax */}
                         <div
                           className={`w-full h-full absolute z-[70] top-0 bg-black text-white transition ease-in-out animate-in  duration-500  overflow-y-auto ${subCategory === "tax"
-                              ? "-translate-x-0 "
-                              : "translate-x-full"
+                            ? "-translate-x-0 "
+                            : "translate-x-full"
                             }`}
                         >
                           <div
@@ -941,8 +941,8 @@ const Header: React.FC = () => {
                         {/* Investment & Family Office Advisory */}
                         <div
                           className={`w-full h-full absolute z-[70] top-0 bg-black text-white transition ease-in-out animate-in  duration-500  overflow-y-auto ${subCategory === "investment-family-office-advisory"
-                              ? "-translate-x-0 "
-                              : "translate-x-full"
+                            ? "-translate-x-0 "
+                            : "translate-x-full"
                             }`}
                         >
                           <div
@@ -1018,8 +1018,8 @@ const Header: React.FC = () => {
                         {/* Risk & Regulatory Advisory */}
                         <div
                           className={`w-full h-full absolute z-[70] top-0 bg-black text-white transition ease-in-out animate-in  duration-500  overflow-y-auto ${subCategory === "risk-regulatory-advisory"
-                              ? "-translate-x-0 "
-                              : "translate-x-full"
+                            ? "-translate-x-0 "
+                            : "translate-x-full"
                             }`}
                         >
                           <div
@@ -1112,8 +1112,8 @@ const Header: React.FC = () => {
                         {/* Management Consulting */}
                         <div
                           className={`w-full h-full absolute z-[70] top-0 bg-black text-white transition ease-in-out animate-in  duration-500  overflow-y-auto ${subCategory === "management-consulting"
-                              ? "-translate-x-0 "
-                              : "translate-x-full"
+                            ? "-translate-x-0 "
+                            : "translate-x-full"
                             }`}
                         >
                           <div
