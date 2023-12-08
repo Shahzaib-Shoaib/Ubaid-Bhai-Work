@@ -5,12 +5,11 @@ import { Icons } from "./Icons";
 import { FaLinkedin, FaMapMarkerAlt, FaYoutube } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
-
 const Footer: React.FC = () => {
   return (
     <footer className="bg-black font-medium ">
       {/* Footer */}
-      <div className="footer text-white p-4 lg:p-12 xl:p-11 2xl:p-14 w-full inline-block">
+      <div className="footer text-white p-4 lg:p-12 xl:p-11 2xl:px-12 2xl:pt-12 2xl:pb-0 w-full inline-block">
         {/* Footer Logo / Column 1 */}
         <div className="footerlogo h-[50px] logo-col-footer">
           <img
@@ -50,7 +49,10 @@ const Footer: React.FC = () => {
           <Link className="link pb-1" href={"/services/finance-accounting"}>
             Finance & Accounting
           </Link>
-          <Link className="link pb-1" href={"/services/corporate-finance-advisory"}>
+          <Link
+            className="link pb-1"
+            href={"/services/corporate-finance-advisory"}
+          >
             Corporate Finance Advisory
           </Link>
           <Link className="link pb-1" href={"/services/tax"}>
@@ -62,7 +64,10 @@ const Footer: React.FC = () => {
           >
             Investment & Family Office Advisory
           </Link>
-          <Link className="link pb-1" href={"/services/risk-regulatory-advisory"}>
+          <Link
+            className="link pb-1"
+            href={"/services/risk-regulatory-advisory"}
+          >
             Risk & Regulatory Advisory
           </Link>
           <Link className="link pb-1" href={"/services/management-consulting"}>
@@ -77,7 +82,7 @@ const Footer: React.FC = () => {
               Contact
             </h2>
             <Link
-              className="link hover:text-golden flex items-center gap-2 mb-2"
+              className="link hover:text-golden flex items-center gap-2 mb-2 2xl:mb-6"
               href={"mailto:Info@morsimpartners.com"}
             >
               <div className="icon rounded-full text-white bg-golden h-7 w-7 flex items-center justify-center">
@@ -99,7 +104,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="follow-us flex flex-col gap-2">
-            <h2 className="footer-heading text-golden text-[24px] 2xl:text-[27px] pb-3">
+            <h2 className="footer-heading text-golden text-[24px] 2xl:text-[27px] pb-3 2xl:mb-2">
               Follow us
             </h2>
             <div className="flex gap-2 items-center">
@@ -114,7 +119,9 @@ const Footer: React.FC = () => {
               </Link>
               <Link
                 className="link hover:text-golden flex items-center  gap-2"
-                href={"https://www.youtube.com/channel/UCs9ZjAbeMUOfLs0U2vHHJRA"}
+                href={
+                  "https://www.youtube.com/channel/UCs9ZjAbeMUOfLs0U2vHHJRA"
+                }
               >
                 <div className="icon rounded-full bg-golden h-7 w-7 flex items-center justify-center ">
                   {/* <Icons.youtube className="h-3 w-3 text-white" /> */}
@@ -124,10 +131,11 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-
-
       </div>
-      <div className="pl-[3rem] sm:pl-[1rem] pb-2 text-white text-[9px] 2xl:text-[16px] 2xl:w-[470px]">Morsi M Partners ® is a registered trademark. © 2023. All Rights Reserved.</div>
+      <div className="pl-[3rem] sm:pl-[1rem] pb-2 text-white text-[9px] 2xl:text-[16px] 2xl:w-[470px]">
+        Morsi M Partners ® is a registered trademark. © 2023. All Rights
+        Reserved.
+      </div>
 
       {/* Copyright */}
       <div className="copyright border-t border-t-greyborder flex items-center justify-center text-white py-[10px] px-[50px] xl:py-[10px] xl:px-[50px] 2xl:py-[20px] 2xl:px-[50px]">
@@ -137,7 +145,10 @@ const Footer: React.FC = () => {
         >
           Privacy Policy
         </Link>
-        <Link className="link px-3 text-[20px] sm:text-[14px] bold" href={"/terms-conditions"}>
+        <Link
+          className="link px-3 text-[20px] sm:text-[14px] bold"
+          href={"/terms-conditions"}
+        >
           Terms & Condition
         </Link>
       </div>

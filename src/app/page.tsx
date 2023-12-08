@@ -42,23 +42,22 @@ export default function Home() {
             src={"/images/banner_heading.png"}
             width={1003}
             height={100}
-            className=" mb-6 banner-image-morsi"
+            className=" 2xl:mb-[35px] 2xl:-mt-1  banner-image-morsi"
           />
-          <h2 className="text-white text-center leading-none font-normal  text-[12px] md:text-[18px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px]">
-            An independent advisory and professional services firm
-          </h2>
-          <h2 className="text-white text-center sm:max-w-[85%] leading-none font-normal my-5 text-[12px] md:text-[18px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px]">
-            We help our clients address operational, strategic, and complex
-            challenges
-          </h2>
+          <div className="2xl:-mt-4">
+            <h2 className="text-white text-center leading-none font-normal  text-[12px] md:text-[18px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px]">
+              An independent advisory and professional services firm
+            </h2>
+            <h2 className="text-white text-center sm:max-w-[85%] leading-none font-normal my-5 text-[12px] md:text-[18px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px]">
+              We help our clients address operational, strategic, and complex
+              challenges
+            </h2>
+          </div>
         </div>
       </section>
 
       {/* Advisory Expertise */}
-      <section
-        id="advisory-expertise"
-        className="div_section bggolden  "
-      >
+      <section id="advisory-expertise" className="div_section bggolden  ">
         <div className="maxw">
           <h2 className=" text-center text-black pb-3 border-b border-b-golden w-fit mx-auto text-[22px] lg:text-[30px] xl:text-[45px] 2xl:text-[45px]">
             Our deep advisory expertise
@@ -80,7 +79,7 @@ export default function Home() {
                     width={60}
                     className="mb-1 w-[13px] h-[13px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] xl:w-[50px] xl:h-[50px] 2xl:w-[60px] 2xl:h-[60px]"
                   />
-                  <p className="text-[4px] md:text-[4px] lg:text-[12px] xl:text-[16px] 2xl:text-[16px] mb-0 sm:-mb-[15px]">
+                  <p className="text-[4px] md:text-[4px] lg:text-[12px] xl:text-[16px] 2xl:text-[16px] mb-0 sm:-mb-[15px] ">
                     Finance & Accounting
                   </p>
                   <div className="arrow-icon"></div>
@@ -167,7 +166,7 @@ export default function Home() {
                 </TabsTrigger>
               </TabsList>
               <TabsContent className="mt-4" value="finance-accounting">
-                <h2 className=" text-black font-medium mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
+                <h2 className=" text-black font-medium mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px] 2xl:mt-8">
                   Finance & Accounting
                 </h2>
                 <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
@@ -190,7 +189,7 @@ export default function Home() {
                 </Link>
               </TabsContent>
               <TabsContent className="mt-4" value="corporate-finance-advisory">
-                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
+                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px] 2xl:mt-8">
                   Corporate Finance Advisory
                 </h2>
                 <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
@@ -212,7 +211,7 @@ export default function Home() {
                 </Link>
               </TabsContent>
               <TabsContent className="mt-4" value="tax">
-                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
+                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px] 2xl:mt-8">
                   Tax
                 </h2>
                 <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
@@ -238,7 +237,7 @@ export default function Home() {
                 className="mt-4"
                 value="investment-family-office-advisory"
               >
-                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
+                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px] 2xl:mt-8">
                   Investment & Family Office Advisory
                 </h2>
                 <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
@@ -260,7 +259,7 @@ export default function Home() {
                 </Link>
               </TabsContent>
               <TabsContent className="mt-4" value="risk-regulatory-advisory">
-                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
+                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px] 2xl:mt-8">
                   Risk & Regulatory Advisory
                 </h2>
                 <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
@@ -282,7 +281,7 @@ export default function Home() {
                 </Link>
               </TabsContent>
               <TabsContent className="mt-4" value="management-consulting">
-                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px]">
+                <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[35px] 2xl:mt-8">
                   Management Consulting
                 </h2>
                 <p className="text-textgrey mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[94%]">
@@ -568,11 +567,11 @@ export default function Home() {
       {/* Get to know us */}
       <section className="div_section">
         <div className="maxw flex items-center gap-2 ">
-          <div className="content w-[65%] ">
+          <div className="content w-[65%] mt-6 ">
             <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">
               Get to know us
             </h2>
-            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
+            <h2 className="text-black mb-2 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium 2xl:-mt-[10px]">
               Progressive, Pragmatic, Switched on
             </h2>
             <p className=" mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] ">
@@ -582,15 +581,15 @@ export default function Home() {
               We take genuine interest in collaborating with you and
               understanding your business.
             </p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[95%] xl:w-[90%] 2xl:w-[80%]">
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[95%] xl:w-[90%] 2xl:w-[94%]">
               We bring diverse expertise and perspectives to gain a 360 view of
               your business and its macros.
             </p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%] xl:w-[85%]">
+            <p className="mb-[14px] 2xl:mb-6 text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[90%] xl:w-[85%] 2xl:w-[94%]">
               Our objective is to unveil opportunities and unlock innovative
               ideas that promote sustainable growth.{" "}
             </p>
-            <div className="actions flex items-center gap-1 xl:gap-4 2xl:gap-4">
+            <div className="actions flex items-center gap-1 xl:gap-4 2xl:gap-4 2xl:pt-8">
               <Link href={"/about-us"}>
                 <CustomButton variant={"golden"}>About</CustomButton>
               </Link>
@@ -608,11 +607,11 @@ export default function Home() {
               ></CustomDialog>
             </div>
           </div>
-          <div className="image w-[35%] flex items-center justify-center xl:flex xl:items-center xl:justify-end 2xl:flex 2xl:items-center 2xl:justify-end">
+          <div className="image w-[45%] flex items-center justify-center xl:flex xl:items-center xl:justify-end 2xl:flex 2xl:items-center 2xl:justify-end">
             <img
               alt="Get to know us image"
               src={"/images/knowus.jpg"}
-              className="hidden xl:block 2xl:block xl:w-[330px] xl:h-[423px] 2xl:w-[432px] 2xl:h-[553px]"
+              className="hidden xl:block 2xl:block xl:w-[330px] xl:h-[423px] 2xl:w-[432px] 2xl:h-[553px] mr-6"
             />
             <img
               alt="Get to know us image"
@@ -630,7 +629,7 @@ export default function Home() {
             <img
               alt="Get to know us image"
               src={"/images/whyus.png"}
-              className="hidden md:block lg:block xl:block 2xl:block xl:w-[330px] xl:h-[423px] 2xl:w-[432px] 2xl:h-[553px]"
+              className="hidden md:block lg:block xl:block 2xl:block xl:w-[330px] xl:h-[423px] 2xl:w-[432px] 2xl:h-[553px] 2xl:ml-6"
             />
             <img
               alt="Get to know us image"
@@ -638,27 +637,27 @@ export default function Home() {
               className="md:hidden lg:hidden xl:hidden 2xl:hidden sm:w-[110px] sm:h-[305px]"
             />
           </div>
-          <div className="content w-[60%]  ">
-            <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">
+          <div className="content w-[60%] 2xl:ml-[5rem] mt-3  ">
+            <h2 className="border-b border-b-golden w-fit text-golden mb-5 2xl:mb-2 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">
               Why us
             </h2>
-            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
+            <h2 className="text-black mb-5 2xl:mb-2 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
               Trusted, Independent, Experienced
             </h2>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%]">
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%] 2xl:w-[95%]">
               Our commitment to our clients is an unrivaled level of service
               excellence across the suite of our services.
             </p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]">
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 2xl:w-[85%]">
               We pride ourselves with the trusted relationships and the
               borderless network that we have built over the years.
             </p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%]">
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%] 2xl:w-[85%]">
               We prioritize building strong and trustworthy relationships with
               our clients, ensuring that their growth is at the forefront of our
               daily interactions.
             </p>
-            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%]">
+            <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] w-[100%] 2xl:w-[90%]">
               At every interaction, we bring a depth of insight and foresight.
               We go beyond providing advisory solutions to existing problems,
               leveraging our experience to proactively maximize opportunities
@@ -680,10 +679,10 @@ export default function Home() {
       <section className="div_section">
         <div className="maxw flex items-center gap-4">
           <div className="content w-[55%] ">
-            <h2 className="border-b border-b-golden w-fit text-golden mb-5 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">
+            <h2 className="border-b border-b-golden w-fit text-golden mb-5 2xl:mb-2 text-[12px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-medium">
               Join our team
             </h2>
-            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
+            <h2 className="text-black mb-5 2xl:mb-3 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
               Lead with character, Win together
             </h2>
             <p className="mb-[14px] text-[10px] md:text-[16px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] xl:w-[90%]">
@@ -714,7 +713,7 @@ export default function Home() {
             <img
               alt="Get to know us image"
               src={"/images/joinourteam.jpg"}
-              className="hidden md:block lg:block xl:block 2xl:block xl:w-[330px] xl:h-[423px] 2xl:w-[432px] 2xl:h-[553px]"
+              className="hidden md:block lg:block xl:block 2xl:block xl:w-[330px] xl:h-[423px] 2xl:w-[432px] 2xl:h-[555px] 2xl:mr-[18px]"
             />
             <img
               alt="Get to know us image"
