@@ -1,4 +1,3 @@
-
 import React, { ReactNode } from "react";
 import {
   Dialog,
@@ -36,13 +35,17 @@ const CustomDialog = ({
   footer,
   footerClassName,
 }: CustomDialogProps) => {
-
   return (
     <Dialog>
-      <DialogTrigger asChild  className={cn("", triggerClassName)}>
+      <DialogTrigger asChild className={cn("", triggerClassName)}>
         {trigger}
       </DialogTrigger>
-      <DialogContent className={cn("rounded-none overflow-y-auto h-[80%] max-w-[95%]", contentClassName)}>
+      <DialogContent
+        className={cn(
+          "rounded-none overflow-y-auto h-[80%] 2xl:h-[75%] max-w-[95%]",
+          contentClassName
+        )}
+      >
         <DialogHeader>
           {title && (
             <DialogTitle className={cn("", titleClassName)}>

@@ -15,7 +15,7 @@ import {
   CommandEmpty,
   CommandGroup,
   CommandInput,
-  CommandItem
+  CommandItem,
 } from "@/ui/command";
 
 type Props = {
@@ -35,9 +35,9 @@ type Props = {
   optionsEmptyPlaceholder: string;
   optionsEmptyClassName?: string;
   optionsGroupClassName?: string;
-  form: any,
+  form: any;
   placeHolder: string;
-  options: { id: string,name: string,value: string }[],
+  options: { id: string; name: string; value: string }[];
 };
 
 const CustomCombobox = (props: Props) => {
@@ -60,7 +60,7 @@ const CustomCombobox = (props: Props) => {
     optionsEmptyPlaceholder = "",
     optionsEmptyClassName = "",
     optionsGroupClassName = "",
-    form
+    form,
   } = props;
   return (
     <FormField
@@ -69,25 +69,52 @@ const CustomCombobox = (props: Props) => {
       render={({ field }) => (
         <FormItem className={cn("flex flex-col w-full", className)}>
           <FormLabel className={cn("", labelClassName)}>{label}</FormLabel>
-          <Popover >
-            <PopoverTrigger
-              asChild
-              className={cn("", popoverTriggerClassName)}
-            >
+          <Popover>
+            <PopoverTrigger asChild className={cn("", popoverTriggerClassName)}>
               <FormControl>
-                <Button variant={"outline"} role="combobox" className={cn("w-full sm:px-1 sm:py-0 sm:h-fit justify-between bg-transparent placeholder:text-white sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-white rounded-full hover:bg-transparent hover:text-white", !field.value && "text-white")}>
-                    {
-                      field.value || placeHolder
-                    }
+                <Button
+                  variant={"outline"}
+                  role="combobox"
+                  className={cn(
+                    "w-full sm:px-1 sm:py-0 sm:h-fit justify-between bg-transparent 2xl:py-6  placeholder:text-white sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-white rounded-full hover:bg-transparent hover:text-white",
+                    !field.value && "text-white"
+                  )}
+                >
+                  {field.value || placeHolder}
                   <ChevronsUpDown className="ml-2 h-4 w-4 sm:h-2 sm:w-2 shrink-0 opacity-50" />
                 </Button>
               </FormControl>
             </PopoverTrigger>
-            <PopoverContent className={cn("p-0 bg-black min-w-[300px]", popoverContentClassName)}>
-              <Command className={cn("bg-black text-white w-full", optionsClassName)}>
-                <CommandInput placeholder={optionsPlaceholder} className={cn("border-none outline-none focus-visible::outline-none ring-0 focus-visible:ring-0 sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]", optionsInputClassName)} />
-                <CommandEmpty className={cn("flex items-center justify-center p-4 sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]", optionsEmptyClassName)}>{optionsEmptyPlaceholder}</CommandEmpty>
-                <CommandGroup className={cn("text-white max-h-[200px] overflow-y-auto", optionsGroupClassName)}>
+            <PopoverContent
+              className={cn(
+                "p-0 bg-black min-w-[300px]",
+                popoverContentClassName
+              )}
+            >
+              <Command
+                className={cn("bg-black text-white w-full", optionsClassName)}
+              >
+                <CommandInput
+                  placeholder={optionsPlaceholder}
+                  className={cn(
+                    "border-none outline-none focus-visible::outline-none ring-0 focus-visible:ring-0 sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]",
+                    optionsInputClassName
+                  )}
+                />
+                <CommandEmpty
+                  className={cn(
+                    "flex items-center justify-center p-4 sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]",
+                    optionsEmptyClassName
+                  )}
+                >
+                  {optionsEmptyPlaceholder}
+                </CommandEmpty>
+                <CommandGroup
+                  className={cn(
+                    "text-white max-h-[200px] overflow-y-auto",
+                    optionsGroupClassName
+                  )}
+                >
                   {options.map((option) => (
                     <CommandItem
                       value={option.value}
@@ -95,7 +122,7 @@ const CustomCombobox = (props: Props) => {
                       className="aria-selected:bg-golden aria-selected:text-white aria-selected:cursor-pointer sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]"
                       onSelect={(value) => {
                         form.setValue(name, value);
-                        form.clearErrors(name)
+                        form.clearErrors(name);
                       }}
                     >
                       {option.name}

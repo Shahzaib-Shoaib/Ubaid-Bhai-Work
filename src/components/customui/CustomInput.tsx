@@ -47,7 +47,7 @@ const CustomInput = (props: Props) => {
               placeholder={placeholder}
               {...field}
               className={cn(
-                "bg-transparent sm:px-1 sm:py-0 sm:h-fit placeholder:text-white sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-white rounded-full",
+                "bg-transparent sm:px-1 2xl:py-6 sm:py-0 sm:h-fit placeholder:text-white sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-white rounded-full",
                 className
               )}
               {...remaining}

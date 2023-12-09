@@ -181,7 +181,7 @@ const Careers = () => {
               <CustomButton variant={"golden"}>Apply now</CustomButton>
             </Link>
             <Link href={"/explore-our-current-opportunities"}>
-              <CustomButton variant={"dark"}>
+              <CustomButton variant={"goldish"}>
                 Explore our current opportunities
               </CustomButton>
             </Link>

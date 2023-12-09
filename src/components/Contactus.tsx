@@ -13,7 +13,7 @@ import CustomButton from "./customui/CustomButton";
 import { countries } from "@/data/countries";
 
 const Contactus: React.FC = () => {
-  const [message, setMessage] = useState<string>("")
+  const [message, setMessage] = useState<string>("");
   const form = useForm<z.infer<typeof contactSchema>>({
     resolver: zodResolver(contactSchema),
     defaultValues: {
@@ -47,30 +47,27 @@ const Contactus: React.FC = () => {
     { id: "6", name: "Management Consulting", value: "Management Consulting" },
   ];
 
-
   async function onSubmit(values: z.infer<typeof contactSchema>) {
     const response = await fetch("/api/sendMail", {
       method: "POST",
       body: JSON.stringify(values),
     });
-    const data = await response.json()
+    const data = await response.json();
     if (data.message === "Sent") {
-      setMessage("Sent")
+      setMessage("Sent");
     } else {
-      setMessage("Failed")
+      setMessage("Failed");
     }
   }
   return (
     <div className="w-full">
       <CustomForm form={form} onSubmit={form.handleSubmit(onSubmit)}>
-
-
         <CustomInput
           control={form.control}
           label="Name"
           name="name"
           description="Please Enter your Name"
-          placeholder="Your Name"
+          placeholder="Name"
           fieldclass="w-full"
         />
         <div className="grid grid-cols-2 gap-2">
@@ -90,49 +87,44 @@ const Contactus: React.FC = () => {
             placeholder="Job Title"
             fieldclass="w-full"
           />
-
         </div>
         <div className="grid grid-cols-2  gap-2">
-
           <CustomInput
             control={form.control}
             label="Email"
             name="email"
             type="email"
             description="Please Enter your Email"
-            placeholder="Email Address"
+            placeholder="Email"
             fieldclass="w-full"
           />
           <CustomCombobox
             form={form}
             control={form.control}
             name="country"
-            placeHolder="Select Country"
+            placeHolder="Country"
             options={countries}
             optionsEmptyPlaceholder="No Countries Found."
           />
-
         </div>
         <div className="grid grid-cols-2  gap-2">
-
           <CustomInput
             control={form.control}
             label="City"
             name="city"
             description="Please Enter your City Name"
-            placeholder="City Name"
+            placeholder="City"
             fieldclass="w-full"
           />
           <CustomSelect
             control={form.control}
             name="service"
-            placeholder="Select Service"
+            placeholder="Select Services"
             options={services}
             label="Service"
             description="Please Select Service"
             className="w-full"
           />
-
         </div>
 
         <CustomTextArea
@@ -145,18 +137,18 @@ const Contactus: React.FC = () => {
           Send
         </CustomButton>
       </CustomForm>
-      {
-        message === "Sent" &&
+      {message === "Sent" && (
         <div className="bg-white p-4 my-2">
           <p className="text-green-800 mb-0">Message sent Successfully.</p>
         </div>
-      }
-      {
-        message === "Failed" &&
+      )}
+      {message === "Failed" && (
         <div className="bg-white p-4 my-2">
-          <p className="text-red-800 mb-0">Message could not be sent. Please try again later.</p>
+          <p className="text-red-800 mb-0">
+            Message could not be sent. Please try again later.
+          </p>
         </div>
-      }
+      )}
     </div>
   );
 };

@@ -41,7 +41,7 @@ const CustomSelect = (props:Props) => {
           </FormLabel> */}
           <Select onValueChange={field.onChange} defaultValue={field.value}>
                 <FormControl>
-                  <SelectTrigger className='bg-transparent sm:py-0 sm:px-1 sm:h-fit placeholder:text-white sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-white rounded-full'>
+                  <SelectTrigger className='bg-transparent 2xl:py-6  sm:py-0 sm:px-1 sm:h-fit placeholder:text-white sm:text-[10px] md:text-[14px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-white rounded-full'>
                     <SelectValue placeholder={placeholder} />
                   </SelectTrigger>
                 </FormControl>

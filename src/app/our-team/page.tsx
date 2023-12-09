@@ -75,13 +75,13 @@ const OurTeam: NextPage = () => {
               }
               content={
                 <div className="w-full">
-                  <div className="w-full flex items-center justify-start gap-4">
+                  <div className="w-full flex items-center justify-start gap-4 2xl:gap-x-9 ">
                     <div className="sm:w-[105px] sm:h-[118px]">
                       <Image
                         alt="Mahmoud Morsi"
                         src={"/images/mahmoud-morsi.png"}
-                        width={163}
-                        height={183}
+                        width={210}
+                        height={236}
                       />
                     </div>
                     <div>
@@ -93,7 +93,7 @@ const OurTeam: NextPage = () => {
                       </h3>
                     </div>
                   </div>
-                  <div className="content mt-6">
+                  <div className="content mt-6  ">
                     <p className="text-black text-justify ">
                       Mahmoud M. Morsi is the Founder of Morsi M Partners, a
                       professional services advisory firm launched in 2023 with
@@ -197,14 +197,14 @@ const OurTeam: NextPage = () => {
               }
               content={
                 <div className="w-full">
-                  <div className="w-full flex items-center justify-start gap-4">
+                  <div className="w-full flex items-center justify-start gap-4 2xl:gap-x-9">
                     <div className="max-w-[50%] ">
                       <div className="sm:w-[105px] sm:h-[118px]">
                         <Image
                           alt="haitham-jabak"
                           src={"/images/haitham-jabak.png"}
-                          width={163}
-                          height={183}
+                          width={210}
+                          height={236}
                         />
                       </div>
                     </div>
@@ -313,14 +313,14 @@ const OurTeam: NextPage = () => {
               }
               content={
                 <div className="w-full">
-                  <div className="w-full flex items-center justify-start gap-4">
+                  <div className="w-full flex items-center justify-start gap-4 2xl:gap-x-9">
                     <div className="max-w-[50%] ">
                       <div className="sm:w-[105px] sm:h-[118px]">
                         <Image
                           alt="mariam-absar"
                           src={"/images/mariam-absar.png"}
-                          width={163}
-                          height={183}
+                          width={210}
+                          height={236}
                         />
                       </div>
                     </div>
@@ -428,14 +428,14 @@ const OurTeam: NextPage = () => {
               }
               content={
                 <div className="w-full">
-                  <div className="w-full flex items-center justify-start gap-4">
+                  <div className="w-full flex items-center justify-start gap-4 2xl:gap-x-9">
                     <div className="max-w-[50%] ">
                       <div className="sm:w-[105px] sm:h-[118px]">
                         <Image
                           alt="steven-ireland"
                           src={"/images/steven-ireland.png"}
-                          width={163}
-                          height={183}
+                          width={210}
+                          height={236}
                         />
                       </div>
                     </div>
@@ -536,14 +536,14 @@ const OurTeam: NextPage = () => {
               }
               content={
                 <div className="w-full">
-                  <div className="w-full flex items-center justify-start gap-4">
+                  <div className="w-full flex items-center justify-start gap-4 2xl:gap-x-9">
                     <div className=" ">
                       <div className="sm:w-[105px] sm:h-[118px]">
                         <Image
                           alt="emad-bin-saleem"
                           src={"/images/emad-bin-saleem.png"}
-                          width={163}
-                          height={183}
+                          width={210}
+                          height={236}
                         />
                       </div>
                     </div>
@@ -643,14 +643,14 @@ const OurTeam: NextPage = () => {
               }
               content={
                 <div className="w-full">
-                  <div className="w-full flex items-center justify-start gap-4">
+                  <div className="w-full flex items-center justify-start gap-4 2xl:gap-x-9">
                     <div className=" ">
                       <div className="sm:w-[105px] sm:h-[118px]">
                         <Image
                           alt="muhammad-hassaan-bhagat"
                           src={"/images/muhammad-hassaan-bhagat.png"}
-                          width={163}
-                          height={183}
+                          width={210}
+                          height={236}
                         />
                       </div>
                     </div>
@@ -748,14 +748,14 @@ const OurTeam: NextPage = () => {
               }
               content={
                 <div className="w-full">
-                  <div className="w-full flex items-center justify-start gap-4">
+                  <div className="w-full flex items-center justify-start gap-4 2xl:gap-x-9">
                     <div className="max-w-[50%] ">
                       <div className="sm:w-[105px] sm:h-[118px]">
                         <Image
                           alt="hazem-abdel-rahman"
                           src={"/images/hazem-abdel-rahman.png"}
-                          width={163}
-                          height={183}
+                          width={210}
+                          height={236}
                         />
                       </div>
                     </div>
