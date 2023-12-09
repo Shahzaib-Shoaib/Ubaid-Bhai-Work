@@ -230,22 +230,22 @@ const AboutUS: NextPage = () => {
         {/* Our values */}
         <section id="our-values" className="div_section bggolden">
           <div className="maxw 2xl:px-9 ">
-            <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-normal">
+            <h2 className="text-black mb-5 2xl:mb-4 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-normal 2xl:pt-9 2xl:ml-1">
               Our values
             </h2>
             {/* Integrity & Transparency */}
             <div id="integrity" className="bg-white p-4 mb-4">
-              <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 sm:text-[20px] text-[25px] leading-[28px] sm:leading-tight">
+              <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 2xl:mb-4 sm:text-[20px] text-[25px] leading-[27px] sm:leading-tight">
                 Integrity & Transparency
               </h3>
-              <div className="list-icon">
+              <div className="list-icon 2xl:-ml-3">
                 <div className="list-main flex justify-start items-start gap-2">
                   <img
                     className="areo-icon-1"
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Our reputation is paramount.
                   </p>
                 </div>
@@ -255,7 +255,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Transparency is at the forefront of everything we do.
                   </p>
                 </div>
@@ -265,7 +265,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     We hold ourselves accountable to the highest ethical
                     standards.
                   </p>
@@ -276,7 +276,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     We seek longevity and endurance in our relationships with
                     our stakeholders.
                   </p>
@@ -285,17 +285,17 @@ const AboutUS: NextPage = () => {
             </div>
             {/* Quality & Excellence */}
             <div id="quality" className="bg-white p-4 mb-4">
-              <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 sm:text-[20px] text-[25px] leading-[28px] sm:leading-tight">
+              <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 2xl:mb-4 sm:text-[20px] text-[25px] leading-[27px] sm:leading-tight">
                 Quality & Excellence
               </h3>
-              <div className="list-icon">
+              <div className="list-icon 2xl:-ml-3">
                 <div className="list-main flex justify-start items-start gap-2">
                   <img
                     className="areo-icon-1"
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Consistency in delivering the highest levels of service
                     excellence and quality is top priority.
                   </p>
@@ -306,7 +306,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Our focus on quality and excellence shapes our client
                     interactions and guides our daily activities.
                   </p>
@@ -317,7 +317,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Quality and excellence permeate the entire client experience
                     journey, not just the service outcome.
                   </p>
@@ -326,17 +326,17 @@ const AboutUS: NextPage = () => {
             </div>
             {/* Collaborate & Inspire */}
             <div id="collaborate" className="bg-white p-4 mb-4">
-              <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 sm:text-[20px] text-[25px] leading-[28px] sm:leading-tight">
+              <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 2xl:mb-4 sm:text-[20px] text-[25px] leading-[27px] sm:leading-tight">
                 Collaborate & Inspire
               </h3>
-              <div className="list-icon">
+              <div className="list-icon 2xl:-ml-3">
                 <div className="list-main flex justify-start items-start gap-2">
                   <img
                     className="areo-icon-1"
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Lead by example.
                   </p>
                 </div>
@@ -346,7 +346,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Care about and respect others.
                   </p>
                 </div>
@@ -356,7 +356,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     We win together, this is our culture.
                   </p>
                 </div>
@@ -366,7 +366,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Empower others to be the best version of themselves.
                   </p>
                 </div>
@@ -376,7 +376,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Be to others, the mentor you would want for yourself and
                     look up to.
                   </p>
@@ -387,7 +387,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     Cultivate individuality and uniqueness to maximize outcomes
                     within diverse teams.
                   </p>
@@ -396,17 +396,17 @@ const AboutUS: NextPage = () => {
             </div>
             {/* Be the Alpha, Be Entrepreneurial, Do the right thing */}
             <div id="alpha" className="bg-white p-4 mb-4 2xl:mb-10">
-              <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 sm:text-[20px] text-[25px] leading-[28px] sm:leading-tight">
+              <h3 className="text-black w-fit border-b-2 border-b-golden mb-5 2xl:mb-4 sm:text-[20px] text-[25px] leading-[27px] sm:leading-tight">
                 Be the Alpha, Be Entrepreneurial, Do the right thing
               </h3>
-              <div className="list-icon">
+              <div className="list-icon 2xl:-ml-3">
                 <div className="list-main flex justify-start items-start gap-2">
                   <img
                     className="areo-icon-1"
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     We strive to be the best in everything we do.
                   </p>
                 </div>
@@ -416,7 +416,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     We put our clients' interests first and do what is in their
                     best interests, even if it means making difficult decisions.
                   </p>
@@ -427,7 +427,7 @@ const AboutUS: NextPage = () => {
                     src="/images/icon.png"
                     alt="areo-icon-1"
                   />
-                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[30px]">
+                  <p className="m-1 sm:text-[10px] sm:leading-[16px] text-[20px] leading-[27px]">
                     We approach our work with an entrepreneurial spirit, seeking
                     out new and innovative ways to help our clients succeed.
                   </p>
