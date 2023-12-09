@@ -23,11 +23,11 @@ const OurTeam: NextPage = () => {
       <div className="bg-black h-[70px] lg:h-[90px] w-full block xl:hidden 2xl:hidden"></div>
       {/* Banner */}
       <section className="banner relative flex items-center justify-center w-full h-[250px] lg:h-[520px] xl:h-[700px] 2xl:h-screen overflow-hidden bg-[url('/images/ourteam-banner.jpg')] bg-cover bg-center aspect-video">
-        <div className="info maxw absolute z-[2] w-full h-full flex flex-col items-center justify-center my-auto 2xl:mt-[-80px]  ">
-          <h2 className="text-white text-center leading-tight font-normal mb-4 text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px]">
+        <div className="info maxw absolute  z-[2] w-full h-full flex flex-col items-center justify-center my-auto 2xl:mt-[-75px]  ">
+          <h2 className="text-white text-center leading-tight font-normal mb-4 2xl:mb-[22px] text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px]">
             We believe that legacy creation is the noblest of all pursuits
           </h2>
-          <h2 className="text-white text-center leading-tight font-normal mb-2 xl:mb-4 text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px] xl:w-[90%]">
+          <h2 className="text-white text-center leading-tight 2xl:mt-1 2xl:leading-[30px] font-normal mb-2 xl:mb-4 text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px] xl:w-[90%]">
             Creating and being remembered for our legacy is our mantra that
             encapsulates, embodies, and underpins the values and behaviors we
             carry and exhibit every day
@@ -35,7 +35,11 @@ const OurTeam: NextPage = () => {
           <CustomDialog
             contentClassName="w-full"
             trigger={
-              <CustomButton variant={"golden"} className="2xl:mt-3">
+              <CustomButton
+                variant={"golden"}
+                width={"fit"}
+                className="2xl:mt-3"
+              >
                 A Message From The Founder
               </CustomButton>
             }
@@ -46,7 +50,7 @@ const OurTeam: NextPage = () => {
 
       {/* Our Team */}
       <section id="our-team" className="our-team div_section bggolden">
-        <div className="maxw">
+        <div className="maxw 2xl:max-w-[1175px]">
           <h2 className="section_heading">Our Team</h2>
           {/* Row 1 */}
           <div className="row-1 grid grid-cols-3 w-full">
@@ -61,10 +65,10 @@ const OurTeam: NextPage = () => {
                     height={366}
                     width={326}
                   />
-                  <h3 className="name heading text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
+                  <h3 className="name  2xl:mt-2 heading text-golden mt-4  mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
                     Mahmoud M. Morsi
                   </h3>
-                  <p className="designation sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
+                  <p className="designation 2xl:-mt-1 sub_heading text-center text-black sm:text-[7px]  xl:text-[20px] sm:mb-0">
                     Founder & Managing Partner
                   </p>
                 </div>
@@ -180,10 +184,13 @@ const OurTeam: NextPage = () => {
                     height={366}
                     width={326}
                   />
-                  <h3 className="name heading text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
+                  <h3
+                    className="name heading text-golden 2xl:mt-2
+ mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0"
+                  >
                     Haitham Jabak
                   </h3>
-                  <p className="designation sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
+                  <p className="designation 2xl:-mt-1 sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
                     Director - Investment & Family Office Advisory
                   </p>
                 </div>
@@ -296,10 +303,10 @@ const OurTeam: NextPage = () => {
                     height={366}
                     width={326}
                   />
-                  <h3 className="name heading text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
+                  <h3 className="name heading 2xl:mt-2 text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
                     Mariam Absar
                   </h3>
-                  <p className="designation sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
+                  <p className="designation 2xl:-mt-1 sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
                     Director - Risk & Controls
                   </p>
                 </div>
@@ -411,7 +418,7 @@ const OurTeam: NextPage = () => {
                     height={366}
                     width={326}
                   />
-                  <h3 className="name heading text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
+                  <h3 className="name heading 2xl:mt-2 text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
                     Steven Ireland
                   </h3>
                   <p className="designation sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
@@ -519,10 +526,10 @@ const OurTeam: NextPage = () => {
                     height={366}
                     width={326}
                   />
-                  <h3 className="name heading text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
+                  <h3 className="name heading 2xl:mt-2 text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
                     Emad Bin Saleem
                   </h3>
-                  <p className="designation sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
+                  <p className="designation 2xl:-mt-1 sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
                     Director - Forensic Advisory
                   </p>
                 </div>
@@ -626,10 +633,10 @@ const OurTeam: NextPage = () => {
                     height={366}
                     width={326}
                   />
-                  <h3 className="name heading text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
+                  <h3 className="name heading 2xl:mt-2 text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
                     Muhammad Hassaan Bhagat
                   </h3>
-                  <p className="designation sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
+                  <p className="designation 2xl:-mt-1 sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
                     Director – Regulatory Compliance
                   </p>
                 </div>
@@ -731,10 +738,10 @@ const OurTeam: NextPage = () => {
                     height={366}
                     width={326}
                   />
-                  <h3 className="name heading text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
+                  <h3 className="name heading 2xl:mt-2 text-golden mt-4 mb-0 text-center text-[12px] lg:text-[22px] xl:text-[26px] 2xl:text-[35px] sm:mb-0 xl:mb-0">
                     Hazem Abdel Rahman
                   </h3>
-                  <p className="designation sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
+                  <p className="designation 2xl:-mt-1 sub_heading text-center text-black sm:text-[7px] xl:text-[20px] sm:mb-0">
                     Director - Actuarial Valuation
                   </p>
                 </div>
