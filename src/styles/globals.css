@@ -147,7 +147,7 @@
     @apply max-w-[1200px] mx-auto;
   }
   .bggolden {
-    @apply bg-[radial-gradient(at_center_center,#B4945426_0%,#FFFFFF_100%)] bg-transparent;
+    @apply bg-[radial-gradient(at_center_center,#B4945447_0%,#FFFFFF_100%)] bg-transparent;
   }
   .bggreyblur {
     @apply bg-[#4B4B4B4D] shadow-[0px_0px_3px_8px_rgba(255,255,255,0)_inset];

@@ -41,7 +41,7 @@ const Careers = () => {
       {/* Our Values */}
       <section className="our-values div_section bg-[url('/images/carees-secbg.jpg')]  bg-cover  max-h-[400px]">
         <div className="maxw  flex items-center justify-center">
-          <h2 className="text-center 2xl:leading-[50px] text-white w-fit border-b border-b-golden text-[16px] md:text-[28px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px]">
+          <h2 className="text-center 2xl:leading-[50px] text-white w-fit border-b border-b-golden text-[16px] md:text-[28px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] ">
             Our values
           </h2>
         </div>
@@ -53,8 +53,8 @@ const Careers = () => {
             <Image
               alt="Integrity"
               src={"/images/integrity.png"}
-              height={68}
-              width={68}
+              height={70}
+              width={70}
               className="w-7 h-7 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 "
             />
             <p className="text-center mt-3 2xl:mt-5 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] 2xl:leading-[35px]">
@@ -69,8 +69,8 @@ const Careers = () => {
             <Image
               alt="Quality"
               src={"/images/quality.png"}
-              height={68}
-              width={68}
+              height={70}
+              width={70}
               className="w-7 h-7 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 "
             />
             <p className="text-center mt-3 2xl:mt-5 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] 2xl:leading-[35px]">
@@ -85,8 +85,8 @@ const Careers = () => {
             <Image
               alt="Collaborate"
               src={"/images/deal.png"}
-              height={68}
-              width={68}
+              height={70}
+              width={70}
               className="w-7 h-7 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 "
             />
             <p className="text-center mt-3 2xl:mt-5 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] 2xl:leading-[35px]">
@@ -101,8 +101,8 @@ const Careers = () => {
             <Image
               alt="Alpha"
               src={"/images/civil-rights.png"}
-              height={68}
-              width={68}
+              height={70}
+              width={70}
               className="w-7 h-7 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 "
             />
             <p className="text-center mt-3 2xl:mt-5 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] sm:w-[80%] 2xl:leading-[35px]">
@@ -116,11 +116,11 @@ const Careers = () => {
 
       {/* Work with us */}
       <section id="work-with-us" className="our-values div_section bggolden">
-        <div className="maxw ">
+        <div className="maxw 2xl:max-w-[1175px] ">
           <h2 className="text-black mb-5 text-[16px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px] font-medium">
             Work with us
           </h2>
-          <div className="content my-5  w-full grid gap-2 grid-cols-2 ">
+          <div className="content my-5  w-full grid gap-2 2xl:gap-x-3 2xl:gap-y-4 grid-cols-2 ">
             <div className=" bg-white w-full p-4">
               <Image
                 className="carrer-icon"
@@ -176,7 +176,7 @@ const Careers = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 2xl:mt-14">
             <Link href={"/explore-our-current-opportunities"}>
               <CustomButton variant={"golden"}>Apply now</CustomButton>
             </Link>
