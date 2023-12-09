@@ -217,7 +217,7 @@ const Services: NextPage = () => {
                       </AccordionItem>
                     </Accordion>
                   </div>
-                  <div className="content  flex items-center justify-center w-[30%] lg:w-[35%] xl:w-[35%] 2xl:w-[35%] m-6">
+                  <div className="content  flex items-center justify-center w-[30%] lg:w-[35%] xl:w-[35%] 2xl:w-[27%] m-6 2xl:ml-20">
                     <Image
                       alt="Financial-Services"
                       src={"/images/Financial-Services.png"}
@@ -234,8 +234,8 @@ const Services: NextPage = () => {
                 </div>
               </TabsContent>
               <TabsContent value="diverse-industries">
-                <div className="flex">
-                  <div className="content  flex items-center justify-center w-[30%]  lg:w-[35%] xl:w-[35%] 2xl:w-[35%] m-6">
+                <div className="flex 2xl:ml-24">
+                  <div className="content  flex items-center justify-center w-[30%]  lg:w-[35%] xl:w-[35%] 2xl:w-[42%] m-6 2xl:mr-24 2xl:ml:20">
                     <Image
                       alt="Diverse-Industries"
                       src={"/images/Diverse-Industries.png"}
@@ -330,7 +330,7 @@ const Services: NextPage = () => {
               {/* Finance & Accounting */}
               <div className="Finance-Accounting post w-full flex">
                 <div className="img bg-[url('/images/Finance-Accounting.png')] bg-center w-[50%] max-h-[380px] bg-cover aspect-square "></div>
-                <div className="content div_section  bg-pinkish max-h-[500px] w-[50%] flex flex-col justify-center sm:p-[10px] md:p-[15px] lg:p-[20px] xl:p-[30px] 2xl:p-[30px]">
+                <div className="content div_section  bg-pinkish max-h-[500px] w-[50%] flex flex-col justify-center sm:p-[10px] md:p-[15px] lg:p-[20px] xl:p-[30px] 2xl:py-[30px] 2xl:px-[40px]">
                   <Link href={"/services/finance-accounting/"}>
                     <h2 className="leading-[100%] text-[14px] lg:text-[16px] xl:text-[20px] 2xl:text-[25px] mb-3">
                       Finance & Accounting
