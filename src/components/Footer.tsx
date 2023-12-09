@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-black font-medium ">
       {/* Footer */}
-      <div className="footer text-white p-4 lg:p-12 xl:p-11 2xl:px-12 2xl:pt-12 2xl:pb-0 w-full inline-block">
+      <div className="footer text-white p-4 lg:p-12 xl:p-11 2xl:px-12 2xl:pt-12 2xl:pr-[74px] 2xl:pb-0 w-full inline-block">
         {/* Footer Logo / Column 1 */}
         <div className="footerlogo h-[50px] logo-col-footer">
           <img
@@ -82,10 +82,10 @@ const Footer: React.FC = () => {
               Contact
             </h2>
             <Link
-              className="link hover:text-golden flex items-center gap-2 mb-2 2xl:mb-6"
+              className="link hover:text-golden flex items-center gap-2 mb-2 2xl:mb-3"
               href={"mailto:Info@morsimpartners.com"}
             >
-              <div className="icon rounded-full text-white bg-golden h-7 w-7 flex items-center justify-center">
+              <div className="icon rounded-full text-white bg-golden h-8 w-8 flex items-center justify-center">
                 {/* <Icons.mail className="h-3 w-3 text-white " /> */}
                 <IoMdMail className="text-white h-4 w-4" />
               </div>
@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
               className="link hover:text-golden flex items-center  gap-2"
               href={""}
             >
-              <div className="icon rounded-full bg-golden h-7 w-7 flex items-center justify-center">
+              <div className="icon rounded-full bg-golden h-8 w-8 flex items-center justify-center">
                 {/* <Icons.mapPin className="h-3 w-3  text-white " /> */}
                 <FaMapMarkerAlt className="text-white h-4 w-4" />
               </div>
