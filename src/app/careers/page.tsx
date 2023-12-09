@@ -19,7 +19,7 @@ const Careers = () => {
       {/* Banner */}
       <section className="banner relative flex items-center justify-center w-full h-[250px] lg:h-[520px] xl:h-[700px] 2xl:h-screen overflow-hidden bg-[url('/images/careers-banner.jpg')] bg-cover aspect-video">
         <div className="info bottom-9 maxw absolute   z-[2] w-full h-full flex flex-col items-center justify-center my-auto">
-          <h2 className="text-white text-center leading-[100%] font-normal  text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px] mb-[30px]">
+          <h2 className="text-white text-center leading-[100%] font-normal  text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px] mb-[30px] 2xl:mb-0 2xl:mt-5">
             Lead with character, Be the Game Changer, Elevate one another
           </h2>
           <h2 className="text-white text-center leading-[100%] font-normal mb-1 text-[10px] md:text-[10px] lg:text-[20px] xl:text-[28px] 2xl:text-[31px]">
@@ -39,13 +39,13 @@ const Careers = () => {
       </section>
 
       {/* Our Values */}
-      <section className="our-values div_section bg-[url('/images/carees-secbg.jpg')] bg-cover  max-h-[400px]">
-        <div className="maxw flex items-center justify-center">
-          <h2 className="text-center text-white w-fit border-b border-b-golden text-[16px] md:text-[28px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px]">
+      <section className="our-values div_section bg-[url('/images/carees-secbg.jpg')]  bg-cover  max-h-[400px]">
+        <div className="maxw  flex items-center justify-center">
+          <h2 className="text-center 2xl:leading-[50px] text-white w-fit border-b border-b-golden text-[16px] md:text-[28px] lg:text-[28px] xl:text-[36px] 2xl:text-[45px]">
             Our values
           </h2>
         </div>
-        <div className="maxw mx-auto grid grid-cols-4 mt-4 p-0">
+        <div className="maxw 2xl:max-w-[1120px] mx-auto grid grid-cols-4 mt-4 2xl:mt-9 p-0">
           <Link
             href={"/about-us/#integrity"}
             className="flex flex-col items-center justify-start"
@@ -53,11 +53,11 @@ const Careers = () => {
             <Image
               alt="Integrity"
               src={"/images/integrity.png"}
-              height={66}
-              width={66}
+              height={68}
+              width={68}
               className="w-7 h-7 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 "
             />
-            <p className="text-center mt-3 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px]">
+            <p className="text-center mt-3 2xl:mt-5 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] 2xl:leading-[35px]">
               Integrity & <br />
               Transparency
             </p>
@@ -69,11 +69,11 @@ const Careers = () => {
             <Image
               alt="Quality"
               src={"/images/quality.png"}
-              height={66}
-              width={66}
+              height={68}
+              width={68}
               className="w-7 h-7 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 "
             />
-            <p className="text-center mt-3 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px]">
+            <p className="text-center mt-3 2xl:mt-5 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] 2xl:leading-[35px]">
               Quality & <br />
               Excellence
             </p>
@@ -85,11 +85,11 @@ const Careers = () => {
             <Image
               alt="Collaborate"
               src={"/images/deal.png"}
-              height={66}
-              width={66}
+              height={68}
+              width={68}
               className="w-7 h-7 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 "
             />
-            <p className="text-center mt-3 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px]">
+            <p className="text-center mt-3 2xl:mt-5 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] 2xl:leading-[35px]">
               Collaborate & <br />
               Inspire
             </p>
@@ -101,11 +101,11 @@ const Careers = () => {
             <Image
               alt="Alpha"
               src={"/images/civil-rights.png"}
-              height={66}
-              width={66}
+              height={68}
+              width={68}
               className="w-7 h-7 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 "
             />
-            <p className="text-center mt-3 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] sm:w-[80%]">
+            <p className="text-center mt-3 2xl:mt-5 text-white text-[10px] md:text-[12px] lg:text-[16px] xl:text-[22px] 2xl:text-[30px] sm:w-[80%] 2xl:leading-[35px]">
               Be the Alpha,
               <br /> Be Entrepreneurial,
               <br /> Do the right thing
