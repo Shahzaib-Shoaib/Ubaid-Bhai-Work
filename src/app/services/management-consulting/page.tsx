@@ -27,7 +27,7 @@ const ManagementConsulting = () => {
             <h2 className="heading text-golden mb-3 sm:mb-1 xl:text-[30px] 2xl:text-[30px]">
               Navigating uncertainties, driving transformation
             </h2>
-            <p className="golden_heading text-white sm:text-[10px] xl:text-[23px] 2xl:text-[23px] xl:w-[85%]">
+            <p className="golden_heading text-white sm:text-[10px] xl:text-[23px] 2xl:text-[23px] xl:w-[85%] 2xl:w-[83%]">
               Empower your business and lead the way with our comprehensive
               offerings, from strategy, operations, and data analytics solutions
               <Link
