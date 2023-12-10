@@ -7,9 +7,10 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: 'Management Consulting | Morsi M Partners',
-  description: 'An independent advisory and professional services firm  We are UAE born, with a global network, reach, and outlook',
-}
+  title: "Management Consulting | Morsi M Partners",
+  description:
+    "An independent advisory and professional services firm  We are UAE born, with a global network, reach, and outlook",
+};
 
 const ManagementConsulting = () => {
   return (
@@ -48,7 +49,7 @@ const ManagementConsulting = () => {
         className="our-tax-services div_section bggolden  overflow-hidden"
       >
         <div className="maxw mx-auto flex flex-col items-center justify-center">
-          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden">
+          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden 2xl:leading-[40px]">
             Our Management Consulting services
           </h2>
           <div className="content my-7 sm:mt-4 xl:mt-10 2xl:mt-14  w-full">
@@ -106,18 +107,22 @@ const ManagementConsulting = () => {
                 className="bg-white text-textgrey p-4"
               >
                 <p>
-                  At MMP, we recognize the pivotal role of risk management in
-                  today’s dynamic business landscape. Our suite of risk &
-                  controls services is designed to help businesses effectively
-                  navigate and mitigate risks, strengthening corporate
-                  governance, ensuring operational resilience and regulatory
-                  compliance.
+                  The lingering effects of the pandemic have disrupted supply
+                  chains and created a demand for scarce talent.
                 </p>
                 <p>
-                  We bring extensive industry knowledge and a results-driven
-                  approach with a focus on delivering tailored solutions that
-                  address your organization’s unique needs and safeguard your
-                  business interests.
+                  Alongside these challenges, various technological, economic,
+                  social, and geopolitical factors have raised questions about
+                  the pace and momentum at which organizations need to rethink
+                  and transform their business models to stay ahead of the
+                  competition.
+                </p>
+                <p>
+                  Our Business Operations & Transformation Advisory services
+                  help you navigate uncertainties, streamline operations, create
+                  a more efficient and effective organization, and unveil
+                  opportunities to unlock new ideas and create sustainable
+                  value.
                 </p>
                 <p>Our Risk & Controls offerings include:</p>
                 <div className="">
@@ -128,7 +133,9 @@ const ManagementConsulting = () => {
                   </ul>
                   <ul className="points plist  list-outside ml-10 sm:ml-8">
                     <li className="p mb-1">Cost structure reviews.</li>
-                    <li className="p mb-1">Operational models restructuring.</li>
+                    <li className="p mb-1">
+                      Operational models restructuring.
+                    </li>
                     <li className="p mb-1">
                       Comprehensive business processes review and
                       transformation.
@@ -142,20 +149,24 @@ const ManagementConsulting = () => {
                 <div className="">
                   <ul className="points accordionlist my-4 sm:my-2 list-outside ml-5">
                     <li className="accordion mt-1 text-golden sm:m-0 sm:text-[18px]">
-                    Business Process Management
+                      Business Process Management
                     </li>
                   </ul>
                   <ul className="points plist list-outside ml-10 sm:ml-8">
                     <li className="p mb-1">Framework design and setup.</li>
-                    <li className="p mb-1">Policies design and documentation (including policies manuals).</li>
                     <li className="p mb-1">
-                    Processes / procedures design and documentation (including Standard Operating Procedures (“SOPs”) manuals).
+                      Policies design and documentation (including policies
+                      manuals).
                     </li>
                     <li className="p mb-1">
-                    Process gap assessments and benchmarking.
+                      Processes / procedures design and documentation (including
+                      Standard Operating Procedures (“SOPs”) manuals).
                     </li>
                     <li className="p mb-1">
-                    Process measurement and continuous improvement.
+                      Process gap assessments and benchmarking.
+                    </li>
+                    <li className="p mb-1">
+                      Process measurement and continuous improvement.
                     </li>
                   </ul>
                 </div>
@@ -269,35 +280,33 @@ const ManagementConsulting = () => {
         </div>
         <div className="w-full maxw mx-auto flex  items-center justify-between gap-2 mt-4">
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-            <Link
-              href={"/services/finance-accounting"}
-              className="w-full"
-            >
+            <Link href={"/services/finance-accounting"} className="w-full">
               <p className="mb-0 skew-x-20 skewedlinks">Finance & Accounting</p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-          <Link
+            <Link
               href={"/services/corporate-finance-advisory"}
               className="w-full"
             >
-              <p className="mb-0 skew-x-20 skewedlinks">Corporate Finance Advisory</p>
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Corporate Finance Advisory
+              </p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-          <Link
-              href={"/services/tax"}
-              className="w-full"
-            >
+            <Link href={"/services/tax"} className="w-full">
               <p className="mb-0 skew-x-20 skewedlinks">Tax</p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-          <Link
+            <Link
               href={"/services/investment-family-office-advisory"}
               className="w-full"
             >
-              <p className="mb-0 skew-x-20 skewedlinks">Investment & Family Office Advisory</p>
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Investment & Family Office Advisory
+              </p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
@@ -305,7 +314,9 @@ const ManagementConsulting = () => {
               href={"/services/risk-regulatory-advisory"}
               className="w-full"
             >
-              <p className="mb-0 skew-x-20 skewedlinks">Risk & Regulatory Advisory</p>
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Risk & Regulatory Advisory
+              </p>
             </Link>
           </div>
         </div>

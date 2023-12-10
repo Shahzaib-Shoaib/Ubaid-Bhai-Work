@@ -47,7 +47,7 @@ const InvestmentFamilyOfficeAdvisory = () => {
         className="our-tax-services div_section bggolden  overflow-hidden"
       >
         <div className="maxw mx-auto flex flex-col items-center justify-center">
-          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden sm:text-[16px]">
+          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden sm:text-[16px] 2xl:leading-[40px]">
           Our Investment & Family Office Advisory services
           </h2>
           <div className="content my-7 xl:mt-14 2xl:mt-14 sm:mt-4  w-full">
@@ -83,7 +83,7 @@ const InvestmentFamilyOfficeAdvisory = () => {
               </TabsList>
               <TabsContent
                 value="investment-asset-allocation-advisory"
-                className="bg-white text-textgrey p-4"
+                className="bg-white text-textgrey p-4 2xl:pr-32"
               >
                 <p>
                 Our Investment & Asset Allocation Advisory solutions are designed to help you achieve your investment objectives while you retain full control over your portfolio and investments. We provide tailored investment advice that aligns with your risk profile across different strategies, asset classes, and regions.

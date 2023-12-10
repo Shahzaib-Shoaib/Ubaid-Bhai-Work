@@ -2,16 +2,22 @@ import ContactusSec from "@/components/ContactusSec";
 import Header from "@/components/Header";
 import { Icons } from "@/components/Icons";
 import CustomButton from "@/components/customui/CustomButton";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: 'Risk Regulatory Advisory | Morsi M Partners',
-  description: 'An independent advisory and professional services firm  We are UAE born, with a global network, reach, and outlook',
-}
+  title: "Risk Regulatory Advisory | Morsi M Partners",
+  description:
+    "An independent advisory and professional services firm  We are UAE born, with a global network, reach, and outlook",
+};
 
 const riskRegulatoryAdvisory = () => {
   return (
@@ -50,11 +56,11 @@ const riskRegulatoryAdvisory = () => {
         id="our-risk-regulatory-advisory-services"
         className="our-risk-regulatory-advisory-services bggolden  overflow-hidden"
       >
-        <div className="maxw mx-auto flex flex-col items-center justify-center px-5">
-          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden ">
+        <div className="maxw 2xl:max-w-[1240px] mx-auto flex flex-col items-center justify-center px-5">
+          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden 2xl:leading-[40px] 2xl:mt-24">
             Our Risk & Regulatory Advisory services
           </h2>
-          <div className="content my-7 sm:mt-4 xl:mt-14 2xl:mt-14  w-full">
+          <div className="content my-7 sm:mt-4 xl:mt-8 2xl:mt-6  w-full">
             <p className="text-textgrey">
               MMP provides comprehensive Risk & Regulatory Advisory services,
               including proactive enterprise risk management, corporate
@@ -89,7 +95,9 @@ const riskRegulatoryAdvisory = () => {
               </div>
               <div className="px-4 sm:px-1 xl:px-[50px] 2xl:px-[50px]  border-r border-r-golden w-[44%]">
                 <ul className="points plist">
-                  <li className="p mt-1 text-black -ml-2">Regulatory Compliance</li>
+                  <li className="p mt-1 text-black -ml-2">
+                    Regulatory Compliance
+                  </li>
                 </ul>
                 <ul className="points line-list linelist list-outside ml-2 sm:ml-2 sm:mt-[-10px] sm:w-[83%]">
                   <li className=" m-0">Regulatory Compliance Reviews.</li>
@@ -144,12 +152,12 @@ const riskRegulatoryAdvisory = () => {
                   Forensic Advisory
                 </TabsTrigger>
               </TabsList>
-              
+
               <TabsContent
                 value="risk-controls"
                 className="bg-white text-textgrey p-4"
               >
-                <p>
+                <p className="2xl:pr-20 2xl:pt-8">
                   At MMP, we recognize the pivotal role of risk management in
                   today’s dynamic business landscape. Our suite of risk &
                   controls services is designed to help businesses effectively
@@ -157,15 +165,15 @@ const riskRegulatoryAdvisory = () => {
                   governance, ensuring operational resilience and regulatory
                   compliance.
                 </p>
-                <p>
+                <p className="2xl:pr-20">
                   We bring extensive industry knowledge and a results-driven
                   approach with a focus on delivering tailored solutions that
                   address your organization’s unique needs and safeguard your
                   business interests.
                 </p>
-                <p>Our Risk & Controls offerings include:</p>
+                <p className="">Our Risk & Controls offerings include:</p>
                 <div className="w-full flex sm:flex-col md:flex-col gap-2 sm:gap-0 md:gap-0 items-start justify-between">
-                  <div className="content w-full text-black sm:-mt-4 md:-mt-4">
+                  <div className="content w-full text-black sm:-mt-4 md:-mt-4 2xl:mt-0">
                     <Accordion
                       type="single"
                       collapsible={true}
@@ -178,7 +186,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 sm:m-0 sm:text-[16px] mb-0">
-                            Enterprise Risk Management
+                              Enterprise Risk Management
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -202,18 +210,26 @@ const riskRegulatoryAdvisory = () => {
                             We can help you in the following areas:​
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">Setting up your ERM function​.</li>
-                  <li className="p mb-[14px]">Fine tuning your risk appetite​.</li>
-                  <li className="p mb-[14px]">ERM maturity review​.</li>
-                  <li className="p mb-[14px]">Risk assessment and Dashboarding.</li>
-                </ul>
+                            <li className="p mb-[14px]">
+                              Setting up your ERM function​.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Fine tuning your risk appetite​.
+                            </li>
+                            <li className="p mb-[14px]">
+                              ERM maturity review​.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Risk assessment and Dashboarding.
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem value="Internal-Audit" className="my-6">
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 sm:m-0 sm:text-[16px] mb-0">
-                            Internal Audit
+                              Internal Audit
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -237,9 +253,11 @@ const riskRegulatoryAdvisory = () => {
                           </p>
                           <div className="point w-full">
                             <ul className="points plist">
-                  <li className="p mb-[14px] text-golden underline">External Quality Assessment Review of Internal
-                                Audit Function</li>
-                  </ul>
+                              <li className="p mb-[14px] text-golden underline">
+                                External Quality Assessment Review of Internal
+                                Audit Function
+                              </li>
+                            </ul>
                             <p className="text-textgrey">
                               In accordance with the Internal Audit standards,
                               our team can perform an external quality
@@ -254,13 +272,21 @@ const riskRegulatoryAdvisory = () => {
                             <ol className=" p text-golden ">
                               <li>
                                 <p className="text-textgrey">
-                                  <span className="text-golden">(a) </span>Positioning.</p>
+                                  <span className="text-golden">(a) </span>
+                                  Positioning.
+                                </p>
                               </li>
                               <li>
-                                <p className="text-textgrey"><span className="text-golden">(b) </span>People.</p>
+                                <p className="text-textgrey">
+                                  <span className="text-golden">(b) </span>
+                                  People.
+                                </p>
                               </li>
                               <li>
-                                <p className="text-textgrey"><span className="text-golden">(c) </span>Processes.</p>
+                                <p className="text-textgrey">
+                                  <span className="text-golden">(c) </span>
+                                  Processes.
+                                </p>
                               </li>
                             </ol>
                             <p className="text-textgrey">
@@ -268,34 +294,40 @@ const riskRegulatoryAdvisory = () => {
                               Committees unlocking value through:{" "}
                             </p>
                             <div className="p-point mb-4 ">
-                            <ul className="points plist">
-                  <li className="p my-1 text-golden">Gap Assessments: <span className="my-1 text-textgrey">
-                                Evaluation of current state of the internal
-                                Audit function against the International
-                                Standards for the Professional Practice of
-                                Internal Auditing and the industry best
-                                practices.
-                              </span></li>
-                  </ul>
-                              
+                              <ul className="points plist">
+                                <li className="p my-1 text-golden">
+                                  Gap Assessments:{" "}
+                                  <span className="my-1 text-textgrey">
+                                    Evaluation of current state of the internal
+                                    Audit function against the International
+                                    Standards for the Professional Practice of
+                                    Internal Auditing and the industry best
+                                    practices.
+                                  </span>
+                                </li>
+                              </ul>
                             </div>
                             <div className="p-point">
-                            <ul className="points plist">
-                  <li className="p my-1 text-golden">Recommendations: <span className="my-1 text-textgrey">
-                                We further recommend actions to be taken to
-                                reduce the gap between the current and the
-                                targeted state of the Internal Audit function.
-                              </span></li>
-                  </ul>
-                              
+                              <ul className="points plist">
+                                <li className="p my-1 text-golden">
+                                  Recommendations:{" "}
+                                  <span className="my-1 text-textgrey">
+                                    We further recommend actions to be taken to
+                                    reduce the gap between the current and the
+                                    targeted state of the Internal Audit
+                                    function.
+                                  </span>
+                                </li>
+                              </ul>
                             </div>
                           </div>
                           <div className="point w-full">
-                            
                             <ul className="points plist mt-4">
-                  <li className="p mb-[14px] text-golden underline">Internal Audit Outsourcing / Co-sourcing
-                                services</li>
-                  </ul>
+                              <li className="p mb-[14px] text-golden underline">
+                                Internal Audit Outsourcing / Co-sourcing
+                                services
+                              </li>
+                            </ul>
                             <p className="text-textgrey">
                               Our team can undertake the duties of an
                               organization’s Internal Audit function as directed
@@ -313,9 +345,11 @@ const riskRegulatoryAdvisory = () => {
                             </p>
                           </div>
                           <div className="point w-full">
-                          <ul className="points plist mt-4">
-                  <li className="p mb-[14px] text-golden underline">Establishing the Internal Audit Function</li>
-                  </ul>
+                            <ul className="points plist mt-4">
+                              <li className="p mb-[14px] text-golden underline">
+                                Establishing the Internal Audit Function
+                              </li>
+                            </ul>
                             <p className="text-textgrey">
                               Our team offers assistance and advice to clients
                               looking to establish an effective Internal Audit
@@ -330,12 +364,26 @@ const riskRegulatoryAdvisory = () => {
                               Committees unlocking value through:{" "}
                             </p>
                             <ul className="points plist mt-4">
-                  <li className="p mb-[14px]">Internal Audit function positioning planning.</li>
-                  <li className="p mb-[14px]">Assist in preparation of the Internal Audit activity’s charter, procedures, and audit plans.</li>
-                  <li className="p mb-[14px]">Carry out Internal Audit assignments together with the organization’s staff to collaborate, share, and transfer knowledge.</li>
-                  <li className="p mb-[14px]">Assessing new-hires or current employees’ competency.</li>
-                  <li className="p mb-[14px]">Staff training and workshops.</li>
-                  </ul>
+                              <li className="p mb-[14px]">
+                                Internal Audit function positioning planning.
+                              </li>
+                              <li className="p mb-[14px]">
+                                Assist in preparation of the Internal Audit
+                                activity’s charter, procedures, and audit plans.
+                              </li>
+                              <li className="p mb-[14px]">
+                                Carry out Internal Audit assignments together
+                                with the organization’s staff to collaborate,
+                                share, and transfer knowledge.
+                              </li>
+                              <li className="p mb-[14px]">
+                                Assessing new-hires or current employees’
+                                competency.
+                              </li>
+                              <li className="p mb-[14px]">
+                                Staff training and workshops.
+                              </li>
+                            </ul>
                           </div>
                         </AccordionContent>
                       </AccordionItem>
@@ -346,7 +394,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 sm:m-0 sm:text-[16px] mb-0">
-                            Corporate Governance
+                              Corporate Governance
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -372,15 +420,39 @@ const riskRegulatoryAdvisory = () => {
                             Our Corporate Governance services include:​
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">Review of the current corporate governance structure, provide recommendations, and support on the recommendations’ implementation.</li>
-                  <li className="p mb-[14px]">Enhance risk management systems and processes.</li>
-                  <li className="p mb-[14px]">Develop codes for corporate governance, business conduct, and other relevant corporate documents to promote compliance and ethical practices.</li>
-                  <li className="p mb-[14px]">Improve corporate governance processes for group companies.</li>
-                  <li className="p mb-[14px]">Conduct Board of Directors’ effectiveness reviews.</li>
-                  <li className="p mb-[14px]">Provide assistance in meeting regulatory requirements on corporate governance and information disclosure.</li>
-                  <li className="p mb-[14px]">Advise on information disclosure issues.</li>
-                  <li className="p mb-[14px]">Environmental, Social, and Governance (ESG) Advisory.</li>
-                </ul>
+                            <li className="p mb-[14px]">
+                              Review of the current corporate governance
+                              structure, provide recommendations, and support on
+                              the recommendations’ implementation.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Enhance risk management systems and processes.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Develop codes for corporate governance, business
+                              conduct, and other relevant corporate documents to
+                              promote compliance and ethical practices.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Improve corporate governance processes for group
+                              companies.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Conduct Board of Directors’ effectiveness reviews.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Provide assistance in meeting regulatory
+                              requirements on corporate governance and
+                              information disclosure.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Advise on information disclosure issues.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Environmental, Social, and Governance (ESG)
+                              Advisory.
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem
@@ -390,7 +462,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 sm:m-0 sm:text-[16px] mb-0">
-                            Business Resilience
+                              Business Resilience
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -419,10 +491,16 @@ const riskRegulatoryAdvisory = () => {
                             offerings, we can help you with the following:​
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">Crisis management.</li>
-                  <li className="p mb-[14px]">Succession planning.</li>
-                  <li className="p mb-[14px]">Business continuity management (“BCM”) – BCM Assessments, BCM Program set up, and BCM Documentation.</li>
-                </ul>
+                            <li className="p mb-[14px]">Crisis management.</li>
+                            <li className="p mb-[14px]">
+                              Succession planning.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Business continuity management (“BCM”) – BCM
+                              Assessments, BCM Program set up, and BCM
+                              Documentation.
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem
@@ -432,7 +510,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 sm:m-0 sm:text-[16px] mb-0">
-                            Internal Control over Financial Reporting (ICFR)
+                              Internal Control over Financial Reporting (ICFR)
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -450,10 +528,11 @@ const riskRegulatoryAdvisory = () => {
                             Our services include the following: ​
                           </p>
                           <div className="point w-full">
-                            
                             <ul className="points plist">
-                  <li className="p mb-[14px] text-golden underline">Effectiveness review of Internal Controls</li>
-                </ul>
+                              <li className="p mb-[14px] text-golden underline">
+                                Effectiveness review of Internal Controls
+                              </li>
+                            </ul>
                             <p className="text-textgrey">
                               We assist our clients in conducting diagnostic
                               reviews of their current internal controls,
@@ -463,8 +542,10 @@ const riskRegulatoryAdvisory = () => {
                           </div>
                           <div className="point w-full">
                             <ul className="points plist">
-                  <li className="p mb-[14px] text-golden underline">Design and implementation of Internal Controls</li>
-                </ul>
+                              <li className="p mb-[14px] text-golden underline">
+                                Design and implementation of Internal Controls
+                              </li>
+                            </ul>
                             <p className="text-textgrey">
                               We assist our clients in designing and
                               implementing effective internal controls, which
@@ -482,8 +563,10 @@ const riskRegulatoryAdvisory = () => {
                           </div>
                           <div className="point w-full">
                             <ul className="points plist">
-                  <li className="p mb-[14px] text-golden underline">Trainings and workshops</li>
-                </ul>
+                              <li className="p mb-[14px] text-golden underline">
+                                Trainings and workshops
+                              </li>
+                            </ul>
                             <p className="text-textgrey">
                               We provide training workshops to help your staff
                               acquire the professional knowledge and technical
@@ -531,7 +614,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 sm:m-0 sm:text-[16px] text-left mb-0">
-                            Regulatory Compliance Reviews
+                              Regulatory Compliance Reviews
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -555,9 +638,7 @@ const riskRegulatoryAdvisory = () => {
                       <AccordionItem value="aml-reviews" className="my-6">
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
-                            <li className="accordion mt-1 mb-0">
-                            AML Reviews
-                            </li>
+                            <li className="accordion mt-1 mb-0">AML Reviews</li>
                           </ul>
                         </AccordionTrigger>
                         <AccordionContent className="p-4 pb-0">
@@ -578,9 +659,17 @@ const riskRegulatoryAdvisory = () => {
                             Our AML regulatory team can help you with:
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">AML Reviews – We can assist you in performing risk-based AML reviews to assess the effectiveness of your AML framework.</li>
-                  <li className="p mb-[14px]">AML Controls – We recommend measures to ensure your AML controls operate effectively and meet the evolving compliance requirements.</li>
-                </ul>
+                            <li className="p mb-[14px]">
+                              AML Reviews – We can assist you in performing
+                              risk-based AML reviews to assess the effectiveness
+                              of your AML framework.
+                            </li>
+                            <li className="p mb-[14px]">
+                              AML Controls – We recommend measures to ensure
+                              your AML controls operate effectively and meet the
+                              evolving compliance requirements.
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem
@@ -590,7 +679,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 mb-0">
-                            Outsourcing of Compliance Officer and MLRO
+                              Outsourcing of Compliance Officer and MLRO
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -616,7 +705,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 mb-0">
-                            ESG Advisory
+                              ESG Advisory
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -651,7 +740,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 mb-0">
-                            Economic Substance Regulations (ESR)
+                              Economic Substance Regulations (ESR)
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -668,9 +757,14 @@ const riskRegulatoryAdvisory = () => {
                             </strong>{" "}
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">Gap assessment on ESR reporting readiness.</li>
-                  <li className="p mb-[14px]">Support on preparation and submission of ESR supporting documents and reports.</li>
-                </ul>
+                            <li className="p mb-[14px]">
+                              Gap assessment on ESR reporting readiness.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Support on preparation and submission of ESR
+                              supporting documents and reports.
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem
@@ -680,7 +774,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 mb-0">
-                            Corporate Services & Setup
+                              Corporate Services & Setup
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -698,12 +792,32 @@ const riskRegulatoryAdvisory = () => {
                             encompasses the following services:
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">Comprehensive assistance with the incorporation / licensing process for authorization by the DFSA, FSRA, and SCA.</li>
-                  <li className="p mb-[14px]">Assistance with the preparation and review of the regulatory business plan.</li>
-                  <li className="p mb-[14px]">Preparation of the financial projections and assistance with the preparation of the PIB returns.</li>
-                  <li className="p mb-[14px]">Assistance with the preparation of the compliance manual, compliance monitoring program, anti-money laundering manual, risk management manual, and other regulatory manuals.</li>
-                  <li className="p mb-[14px]">Assistance with the registration and incorporation process of legal entities with the DIFC and ADGM Registrar of Companies (“ROC”).</li>
-                </ul>
+                            <li className="p mb-[14px]">
+                              Comprehensive assistance with the incorporation /
+                              licensing process for authorization by the DFSA,
+                              FSRA, and SCA.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Assistance with the preparation and review of the
+                              regulatory business plan.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Preparation of the financial projections and
+                              assistance with the preparation of the PIB
+                              returns.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Assistance with the preparation of the compliance
+                              manual, compliance monitoring program, anti-money
+                              laundering manual, risk management manual, and
+                              other regulatory manuals.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Assistance with the registration and incorporation
+                              process of legal entities with the DIFC and ADGM
+                              Registrar of Companies (“ROC”).
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
@@ -724,8 +838,10 @@ const riskRegulatoryAdvisory = () => {
                 <p>
                   Our Forensic Advisory team is well-equipped to assist you in
                   mitigating fraud risks by providing a comprehensive suite of
-                  services, including <span className="underline">fraud prevention</span>, <span className="underline">detection</span>, and <span className="underline">investigation</span>
-                  .
+                  services, including{" "}
+                  <span className="underline">fraud prevention</span>,{" "}
+                  <span className="underline">detection</span>, and{" "}
+                  <span className="underline">investigation</span>.
                 </p>
                 <p>
                   With our tailored approach, we can help you protect your
@@ -743,7 +859,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 mb-0">
-                            Fraud Prevention
+                              Fraud Prevention
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -759,18 +875,29 @@ const riskRegulatoryAdvisory = () => {
                             before they become a problem:
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">Enhancement of Anti-fraud frameworks.</li>
-                  <li className="p mb-[14px]">Conducting fraud risk assessment.</li>
-                  <li className="p mb-[14px]">Development of strategies and policies for prevention of fraud, corruption, misconduct, and whistle blowing policies.</li>
-                  <li className="p mb-[14px]">Fraud awareness programs and training for employees.</li>
-                </ul>
+                            <li className="p mb-[14px]">
+                              Enhancement of Anti-fraud frameworks.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Conducting fraud risk assessment.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Development of strategies and policies for
+                              prevention of fraud, corruption, misconduct, and
+                              whistle blowing policies.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Fraud awareness programs and training for
+                              employees.
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem value="Fraud-Detection" className="my-6">
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
-                        <ul className="points accordionlist">
+                          <ul className="points accordionlist">
                             <li className="accordion mt-1 mb-0">
-                            Fraud Detection
+                              Fraud Detection
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -786,11 +913,21 @@ const riskRegulatoryAdvisory = () => {
                             services:
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">Anti-bribery and corruption reviews.</li>
-                  <li className="p mb-[14px]">Foreign Corrupt Practices Act reviews.</li>
-                  <li className="p mb-[14px]">Development and implementation of whistle-blower hotlines and reporting mechanisms.</li>
-                  <li className="p mb-[14px]">Setup and design of fraud monitoring systems and controls.</li>
-                </ul>
+                            <li className="p mb-[14px]">
+                              Anti-bribery and corruption reviews.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Foreign Corrupt Practices Act reviews.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Development and implementation of whistle-blower
+                              hotlines and reporting mechanisms.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Setup and design of fraud monitoring systems and
+                              controls.
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem
@@ -800,7 +937,7 @@ const riskRegulatoryAdvisory = () => {
                         <AccordionTrigger className="hover:no-underline bg-pinkish border-l-4 border-l-golden p-3">
                           <ul className="points accordionlist">
                             <li className="accordion mt-1 mb-0">
-                            Fraud Investigation
+                              Fraud Investigation
                             </li>
                           </ul>
                         </AccordionTrigger>
@@ -816,11 +953,19 @@ const riskRegulatoryAdvisory = () => {
                             misconduct, and other irregularities.
                           </p>
                           <ul className="points plist">
-                  <li className="p mb-[14px]">Fact finding missions.</li>
-                  <li className="p mb-[14px]">Investigation of whistleblower allegations.</li>
-                  <li className="p mb-[14px]">Forensic accounting.</li>
-                  <li className="p mb-[14px]">Regulatory and compliance investigations.</li>
-                </ul>
+                            <li className="p mb-[14px]">
+                              Fact finding missions.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Investigation of whistleblower allegations.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Forensic accounting.
+                            </li>
+                            <li className="p mb-[14px]">
+                              Regulatory and compliance investigations.
+                            </li>
+                          </ul>
                         </AccordionContent>
                       </AccordionItem>
                     </Accordion>
@@ -852,43 +997,40 @@ const riskRegulatoryAdvisory = () => {
         </div>
         <div className="w-full maxw mx-auto flex  items-center justify-between gap-2 mt-4">
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-            <Link
-              href={"/services/finance-accounting"}
-              className="w-full"
-            >
+            <Link href={"/services/finance-accounting"} className="w-full">
               <p className="mb-0 skew-x-20 skewedlinks">Finance & Accounting</p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-          <Link
+            <Link
               href={"/services/corporate-finance-advisory"}
               className="w-full"
             >
-              <p className="mb-0 skew-x-20 skewedlinks">Corporate Finance Advisory</p>
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Corporate Finance Advisory
+              </p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-          <Link
-              href={"/services/tax"}
-              className="w-full"
-            >
+            <Link href={"/services/tax"} className="w-full">
               <p className="mb-0 skew-x-20 skewedlinks">Tax</p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-          <Link
+            <Link
               href={"/services/investment-family-office-advisory"}
               className="w-full"
             >
-              <p className="mb-0 skew-x-20 skewedlinks">Investment & Family Office Advisory</p>
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Investment & Family Office Advisory
+              </p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-            <Link
-              href={"/services/management-consulting"}
-              className="w-full"
-            >
-              <p className="mb-0 skew-x-20 skewedlinks">Management Consulting</p>
+            <Link href={"/services/management-consulting"} className="w-full">
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Management Consulting
+              </p>
             </Link>
           </div>
         </div>
