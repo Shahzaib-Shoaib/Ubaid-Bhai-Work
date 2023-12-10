@@ -83,21 +83,21 @@ const ManagementConsulting = () => {
                 <TabsTrigger
                   id="business-operations-transformation-advisory"
                   value="business-operations-transformation-advisory"
-                  className="whitespace-normal h-full p-2 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] border-t-4 border-t-transparent bg-black text-white hover:bg-white hover:text-black  hover:border-t-4 hover:border-t-golden data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-4 data-[state=active]:border-t-golden w-full"
+                  className="whitespace-normal h-full p-2 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] border-t-4 border-t-transparent bg-black text-white hover:bg-white hover:text-black  hover:border-t-[6px] hover:border-t-golden data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-[6px] data-[state=active]:border-t-golden w-full"
                 >
                   Business Operations & Transformation Advisory
                 </TabsTrigger>
                 <TabsTrigger
                   id="growth-strategy-advisory"
                   value="growth-strategy-advisory"
-                  className="whitespace-normal h-full p-2 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] border-t-4 border-t-transparent bg-black text-white hover:bg-white hover:text-black  hover:border-t-4 hover:border-t-golden data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-4 data-[state=active]:border-t-golden w-full"
+                  className="whitespace-normal h-full p-2 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] border-t-4 border-t-transparent bg-black text-white hover:bg-white hover:text-black  hover:border-t-[6px] hover:border-t-golden data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-[6px] data-[state=active]:border-t-golden w-full"
                 >
                   Growth Strategy Advisory
                 </TabsTrigger>
                 <TabsTrigger
                   value="data-analytics"
                   id="data-analytics"
-                  className="whitespace-normal h-full p-2 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] border-t-4 border-t-transparent bg-black text-white hover:bg-white hover:text-black  hover:border-t-4 hover:border-t-golden data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-4 data-[state=active]:border-t-golden w-full"
+                  className="whitespace-normal h-full p-2 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] border-t-4 border-t-transparent bg-black text-white hover:bg-white hover:text-black  hover:border-t-[6px] hover:border-t-golden data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-[6px] data-[state=active]:border-t-golden w-full"
                 >
                   Data Analytics
                 </TabsTrigger>
