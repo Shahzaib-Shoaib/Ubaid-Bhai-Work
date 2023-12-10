@@ -24,7 +24,7 @@ const Tax = () => {
       <Header />
       <div className="bg-black h-[70px] lg:h-[90px] w-full block xl:hidden 2xl:hidden"></div>
       {/* Banner */}
-      <section className="banner div_section bg-[url('/images/tax-banner.png')] bg-center bg-cover relative flex items-center justify-center sm:p-0 w-full overflow-hidden sm:h-[200px] xl:h-[500px] 2xl:h-[670px]">
+      <section className="banner div_section bg-[url('/images/tax-banner.png')] bg-center bg-cover relative flex items-center justify-center sm:p-0 w-full overflow-hidden sm:h-[200px] xl:h-[500px] 2xl:h-[640px]">
         <div className="info maxw w-full h-full flex flex-col items-center justify-center my-auto xl:my-[100px] 2xl:my-[100px]">
           <div className="content flex flex-col items-start justify-center px-4 h-full">
             <h2 className="normal_heading text-white mb-3 sm:mb-1 xl:text-[30px] 2xl:text-[50px] ">
@@ -56,7 +56,7 @@ const Tax = () => {
         className="our-tax-services div_section bggolden  overflow-hidden"
       >
         <div className="maxw mx-auto flex flex-col items-center justify-center">
-          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden">
+          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden 2xl:leading-[40px]">
             Our Tax services
           </h2>
           <div className="content my-7 xl:mt-14 2xl:mt-14  w-full">

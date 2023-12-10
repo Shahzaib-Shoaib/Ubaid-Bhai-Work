@@ -17,7 +17,7 @@ const ManagementConsulting = () => {
       <Header />
       <div className="bg-black h-[70px] lg:h-[90px] w-full block xl:hidden 2xl:hidden"></div>
       {/* Banner */}
-      <section className="banner div_section bg-[url('/images/management-consulting-banner.png')] bg-center bg-cover relative flex items-center justify-center sm:p-0 w-full overflow-hidden sm:h-[200px] xl:h-[500px] 2xl:h-[670px]">
+      <section className="banner div_section bg-[url('/images/management-consulting-banner.png')] bg-center bg-cover relative flex items-center justify-center sm:p-0 w-full overflow-hidden sm:h-[200px] xl:h-[500px] 2xl:h-[640px]">
         <div className="info maxw w-full h-full flex flex-col items-center justify-center my-auto xl:my-[100px] 2xl:my-[100px]">
           <div className="content flex flex-col items-start justify-center px-4 h-full">
             <h2 className="normal_heading text-white mb-3 sm:mb-1 xl:text-[30px] 2xl:text-[50px]">

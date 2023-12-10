@@ -1,4 +1,3 @@
-
 import ContactusSec from "@/components/ContactusSec";
 import Header from "@/components/Header";
 import CustomButton from "@/components/customui/CustomButton";
@@ -8,17 +7,18 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: 'Finance Accounting | Morsi M Partners',
-  description: 'An independent advisory and professional services firm  We are UAE born, with a global network, reach, and outlook',
-}
+  title: "Finance Accounting | Morsi M Partners",
+  description:
+    "An independent advisory and professional services firm  We are UAE born, with a global network, reach, and outlook",
+};
 
-const FinanceAccounting:NextPage = () => {
+const FinanceAccounting: NextPage = () => {
   return (
     <main className="finance-accounting-page">
       <Header />
       <div className="bg-black h-[70px] lg:h-[90px] w-full block xl:hidden 2xl:hidden"></div>
       {/* Banner */}
-      <section className="banner div_section bg-[url('/images/finance-accounting-banner.jpg')] bg-center bg-cover relative flex items-center justify-center w-full overflow-hidden sm:h-[200px] xl:h-[500px] 2xl:h-[670px] sm:p-0">
+      <section className="banner div_section bg-[url('/images/finance-accounting-banner.jpg')] bg-center bg-cover relative flex items-center justify-center w-full overflow-hidden sm:h-[200px] xl:h-[500px] 2xl:h-[640px] sm:p-0">
         <div className="info maxw w-full h-full flex flex-col items-center justify-center my-auto xl:my-[100px] 2xl:my-[100px]">
           <div className="content flex flex-col items-start justify-center px-4 h-full">
             <h2 className="normal_heading text-white mb-3 sm:mb-1 xl:text-[30px] 2xl:text-[50px]">
@@ -50,7 +50,7 @@ const FinanceAccounting:NextPage = () => {
         className="our-finance-accounting-services div_section bggolden  overflow-hidden"
       >
         <div className="maxw mx-auto flex flex-col items-center justify-center">
-          <h2 className="section_heading py-1 w-fit text-center border-b border-b-golden mb-0">
+          <h2 className="section_heading py-1 2xl:leading-[40px] w-fit text-center border-b border-b-golden mb-0">
             Our Finance & Accounting services
           </h2>
           <div className="content my-7 sm:mt-4 xl:mt-14 2xl:mt-14  w-full">
@@ -78,7 +78,9 @@ const FinanceAccounting:NextPage = () => {
                 Audit readiness and assistance / Financial statements audit
                 support.
               </li>
-              <li className="p mb-1">Regulatory returns preparation support.</li>
+              <li className="p mb-1">
+                Regulatory returns preparation support.
+              </li>
               <li className="p mb-1">
                 Accounting policies drafting in line with International
                 Financial Reporting Standards (“IFRS”).
@@ -93,28 +95,28 @@ const FinanceAccounting:NextPage = () => {
                 <TabsTrigger
                   id="financial-reporting"
                   value="financial-reporting"
-                  className="p-1 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] bg-black text-white hover:bg-white hover:text-black hover:border-t-4 hover:border-t-golden border-t-4 border-t-transparent data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-4 data-[state=active]:border-t-golden w-full"
+                  className="p-1 text-[6px]  md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] bg-black 2xl:p-2 text-white hover:bg-white hover:text-black hover:border-t-[6px] hover:border-t-golden border-t-4 border-t-transparent data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-[6px] data-[state=active]:border-t-golden w-full"
                 >
                   Financial Reporting
                 </TabsTrigger>
                 <TabsTrigger
                   id="finance-value-creation"
                   value="finance-value-creation"
-                  className="p-1 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] bg-black text-white hover:bg-white hover:text-black hover:border-t-4 hover:border-t-golden border-t-4 border-t-transparent data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-4 data-[state=active]:border-t-golden w-full"
+                  className="p-1 text-[6px]  md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] bg-black 2xl:p-2 text-white hover:bg-white hover:text-black hover:border-t-[6px] hover:border-t-golden border-t-4 border-t-transparent data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-[6px] data-[state=active]:border-t-golden w-full"
                 >
                   Finance Value Creation
                 </TabsTrigger>
                 <TabsTrigger
                   id="technical-accounting-advisory"
                   value="technical-accounting-advisory"
-                  className="p-1 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] bg-black text-white hover:bg-white hover:text-black hover:border-t-4 hover:border-t-golden border-t-4 border-t-transparent data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-4 data-[state=active]:border-t-golden w-full"
+                  className="p-1 text-[6px]  md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] bg-black 2xl:p-2 text-white hover:bg-white hover:text-black hover:border-t-[6px] hover:border-t-golden border-t-4 border-t-transparent data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-[6px] data-[state=active]:border-t-golden w-full"
                 >
                   Technical Accounting Advisory
                 </TabsTrigger>
                 <TabsTrigger
                   id="accounting-administration"
                   value="accounting-administration"
-                  className="p-1 text-[6px] md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] bg-black text-white hover:bg-white hover:text-black hover:border-t-4 hover:border-t-golden border-t-4 border-t-transparent data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-4 data-[state=active]:border-t-golden w-full"
+                  className="p-1 text-[6px]  md:text-[10px] lg:text-[16px] xl:text-[18px] 2xl:text-[21px] bg-black 2xl:p-2 text-white hover:bg-white hover:text-black hover:border-t-[6px] hover:border-t-golden border-t-4 border-t-transparent data-[state=active]:bg-white data-[state=active]:text-black data-[state=active]:border-b-0 data-[state=active]:border-t-[6px] data-[state=active]:border-t-golden w-full"
                 >
                   Accounting Administration
                 </TabsTrigger>
@@ -123,9 +125,7 @@ const FinanceAccounting:NextPage = () => {
                 value="financial-reporting"
                 className="bg-white text-textgrey p-4"
               >
-                <p>
-                Our Financial Reporting offerings include:
-                </p>
+                <p>Our Financial Reporting offerings include:</p>
                 <ul className="points plist list-outside ml-4">
                   <li className="p mb-1">
                     Financial statements preparation support (Statutory and
@@ -162,13 +162,34 @@ const FinanceAccounting:NextPage = () => {
                   <li className="p mb-1">
                     Outsourced Finance Officer for regulated / authorized firms.
                   </li>
-                  <li className="p mb-1">Audit readiness and assistance / Financial statements audit support.</li>
-                  <li className="p mb-1">Accounting policies drafting in line with International Financial Reporting Standards (“IFRS”).</li>
-                  <li className="p mb-1">Standard Operating Procedures (“SOP”) – Finance policies manuals and Finance procedures manuals.</li>
-                  <li className="p mb-1">Finance Talent Solutions ("FTS") - We assist clients in assessing the technical skills of new and potential finance and accounting recruits, from interviews to skills assessments.</li>
-                  <li className="p mb-1">IAS 19 “Employee Benefits” Actuarial valuations.</li>
-                  <li className="p mb-1">Enterprise Resource Planning (“ERP”) systems solutions and implementation.</li>
-                  <li className="p mb-1">Fixed assets and inventory tracking / barcoding.</li>
+                  <li className="p mb-1">
+                    Audit readiness and assistance / Financial statements audit
+                    support.
+                  </li>
+                  <li className="p mb-1">
+                    Accounting policies drafting in line with International
+                    Financial Reporting Standards (“IFRS”).
+                  </li>
+                  <li className="p mb-1">
+                    Standard Operating Procedures (“SOP”) – Finance policies
+                    manuals and Finance procedures manuals.
+                  </li>
+                  <li className="p mb-1">
+                    Finance Talent Solutions ("FTS") - We assist clients in
+                    assessing the technical skills of new and potential finance
+                    and accounting recruits, from interviews to skills
+                    assessments.
+                  </li>
+                  <li className="p mb-1">
+                    IAS 19 “Employee Benefits” Actuarial valuations.
+                  </li>
+                  <li className="p mb-1">
+                    Enterprise Resource Planning (“ERP”) systems solutions and
+                    implementation.
+                  </li>
+                  <li className="p mb-1">
+                    Fixed assets and inventory tracking / barcoding.
+                  </li>
                   <li className="p mb-1">Finance & Accounting training.</li>
                 </ul>
               </TabsContent>
@@ -190,9 +211,12 @@ const FinanceAccounting:NextPage = () => {
                   limited to:
                 </p>
                 <ul className="points plist list-outside ml-4">
-                          <li className="p mb-1">Accounting for digital assets.</li>
-                          <li className="p mb-1">Accounting for business combinations, divestitures, and spin-offs.</li>
-                        </ul>
+                  <li className="p mb-1">Accounting for digital assets.</li>
+                  <li className="p mb-1">
+                    Accounting for business combinations, divestitures, and
+                    spin-offs.
+                  </li>
+                </ul>
               </TabsContent>
               <TabsContent
                 value="accounting-administration"
@@ -203,20 +227,24 @@ const FinanceAccounting:NextPage = () => {
                   services. Our offerings include, but are not limited to:
                 </p>
                 <ul className="points plist list-outside ml-4">
-                          <li className="p mb-1">Bookkeeping and accounts management services. </li>
-                          <li className="p mb-1">Chart of accounts setup and creation.</li>
-                          <li className="p mb-1">Reconciliations services.</li>
-                        </ul>
+                  <li className="p mb-1">
+                    Bookkeeping and accounts management services.{" "}
+                  </li>
+                  <li className="p mb-1">
+                    Chart of accounts setup and creation.
+                  </li>
+                  <li className="p mb-1">Reconciliations services.</li>
+                </ul>
               </TabsContent>
             </Tabs>
             <div className="flex flex-wrap items-center justify-start gap-3 w-full mt-4">
-            <p className="mb-0">
-              For queries, or to submit a request for proposal
-            </p>
-            <Link href={"/contact-us"}>
-              <CustomButton variant={"golden"}>Contact Us</CustomButton>
-            </Link>
-          </div>
+              <p className="mb-0">
+                For queries, or to submit a request for proposal
+              </p>
+              <Link href={"/contact-us"}>
+                <CustomButton variant={"golden"}>Contact Us</CustomButton>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -237,14 +265,13 @@ const FinanceAccounting:NextPage = () => {
               href={"/services/corporate-finance-advisory"}
               className="w-full"
             >
-              <p className="mb-0 skew-x-20 skewedlinks">Corporate Finance Advisory</p>
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Corporate Finance Advisory
+              </p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-            <Link
-              href={"/services/tax"}
-              className="w-full"
-            >
+            <Link href={"/services/tax"} className="w-full">
               <p className="mb-0 skew-x-20 skewedlinks">Tax</p>
             </Link>
           </div>
@@ -253,7 +280,9 @@ const FinanceAccounting:NextPage = () => {
               href={"/services/investment-family-office-advisory"}
               className="w-full"
             >
-              <p className="mb-0 skew-x-20 skewedlinks">Investment & Family Office Advisory</p>
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Investment & Family Office Advisory
+              </p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
@@ -261,15 +290,16 @@ const FinanceAccounting:NextPage = () => {
               href={"/services/risk-regulatory-advisory"}
               className="w-full"
             >
-              <p className="mb-0 skew-x-20 skewedlinks">Risk & Regulatory Advisory</p>
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Risk & Regulatory Advisory
+              </p>
             </Link>
           </div>
           <div className="category -skew-x-30 border-b-2 border-b-golden border-r-2 border-r-golden w-fit pl-1 pr-2 py-2">
-            <Link
-              href={"/services/management-consulting"}
-              className="w-full"
-            >
-              <p className="mb-0 skew-x-20 skewedlinks">Management Consulting</p>
+            <Link href={"/services/management-consulting"} className="w-full">
+              <p className="mb-0 skew-x-20 skewedlinks">
+                Management Consulting
+              </p>
             </Link>
           </div>
         </div>
@@ -277,7 +307,6 @@ const FinanceAccounting:NextPage = () => {
 
       {/* Contact Us*/}
       <ContactusSec />
-
     </main>
   );
 };
